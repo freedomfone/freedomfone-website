@@ -1,0 +1,4 @@
+name = Form Tweak
+description = A module to easily tweak our form
+core = 7.x
+package = Other

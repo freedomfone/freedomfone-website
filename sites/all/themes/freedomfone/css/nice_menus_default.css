@@ -1,0 +1,251 @@
+/* $Id: nice_menus_default.css,v 1.6 2007/10/29 16:38:28 add1sun Exp $ */
+/*
+  This is the default layout template for nice menus, and will provide
+  a starting point for the look of your menus. To customize, it's
+  recommended to create a custom CSS file using this file as a template,
+  then configure the module to use your custom CSS file
+  (this is done in the global settings tab of the theme administration.)
+
+  To help understand the CSS, the HTML looks like this, where
+    x is a number;
+    TYPE is down/left/right;
+    PATH is the menu path such as node/343;
+    MID is the menu id such as 33):
+  <ul id='nice-menu-x' class='nice-menu nice-menu-TYPE'>
+    <li id='menu-MID' class='menu-path-PATH'><a href='#'>This is a menu item</a></li>
+    <li class='menuparent menu-path-PATH'><a href='#'>A submenu</a>
+      <ul...><li...>...</li>
+      </ul>
+    </li>
+    ...
+  </ul>
+
+  If you have more than one nice-menu and want to target a particular one,
+  use its id (e.g. ul#nice-menu-2).
+
+  See README.txt and the handbook page (http://drupal.org/node/185543)
+  for some CSS customization examples.
+*/
+/******************************
+ Global CSS for ALL menu types
+******************************/
+/* line 35, ../sass/nice_menus_default.scss */
+ul.nice-menu,
+ul.nice-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/horiz_dot_line.gif);
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+
+/* line 44, ../sass/nice_menus_default.scss */
+ul.nice-menu li {
+  float: left;
+}
+
+/* line 48, ../sass/nice_menus_default.scss */
+ul.nice-menu a {
+  font-size: 0.91666em;
+  /* 12 x 0.91666 = 11px */
+  padding: 1.35em 10px 1.35em 10px;
+  text-transform: uppercase;
+  color: #737373;
+}
+
+/* line 55, ../sass/nice_menus_default.scss */
+ul.nice-menu a.active {
+  color: #737373;
+}
+
+/* line 60, ../sass/nice_menus_default.scss */
+ul.nice-menu a:hover,
+ul.nice-menu a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 65, ../sass/nice_menus_default.scss */
+ul.nice-menu ul li {
+  width: 11em;
+}
+
+/******************************
+ HORIZONTAL (down) menus
+******************************/
+/* line 73, ../sass/nice_menus_default.scss */
+ul.nice-menu-down {
+  float: left;
+  border: 0;
+}
+
+/* line 78, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* line 83, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li:hover {
+  background: #F58431 right center no-repeat;
+}
+
+/* line 87, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li:hover a {
+  color: #fff;
+}
+
+/* line 91, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li li {
+  margin: 0;
+  background-color: #DBDBDB;
+  border-top: #fff solid 1px;
+}
+
+/* line 97, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li li a {
+  padding: 6px 10px 6px 10px;
+  color: #737373 !important;
+  text-transform: none;
+}
+
+/* line 103, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li li a:hover {
+  background: #F58431 right center no-repeat;
+  color: #fff !important;
+}
+
+/* line 108, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li li.over a {
+  background: #F58431 right center no-repeat;
+  color: #fff !important;
+}
+
+/* line 113, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li li.over ul li a {
+  background: #DBDBDB right center no-repeat;
+  color: #737373 !important;
+}
+/* line 116, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li li.over ul li a:hover {
+  background: #F58431 right center no-repeat;
+  color: #fff !important;
+}
+
+/* line 122, ../sass/nice_menus_default.scss */
+ul.nice-menu-down ul {
+  padding-top: 6px;
+  left: 0;
+}
+/* line 125, ../sass/nice_menus_default.scss */
+ul.nice-menu-down ul li {
+  clear: both;
+}
+
+/* line 130, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li ul li ul {
+  left: 11em;
+  top: -7px;
+  border-left: #fff solid 1px;
+}
+
+/* line 136, ../sass/nice_menus_default.scss */
+ul.nice-menu-down .menuparent a {
+  /* padding-right: 15px; */
+}
+
+/* line 147, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li li.menuparent {
+  background: #DBDBDB right center no-repeat;
+}
+
+/**
+ * Styles added by Chiko
+ */
+/* line 159, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li span {
+  font-size: 0.91666em;
+  padding: 1.35em 10px;
+  text-transform: uppercase;
+  display: block;
+  color: #737373;
+}
+
+/* line 168, ../sass/nice_menus_default.scss */
+li.over > span.nolink {
+  color: #fff;
+}
+
+/* line 172, ../sass/nice_menus_default.scss */
+li.over > ul li a:hover {
+  color: #fff;
+}
+
+/* line 176, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li ul li.over span.nolink {
+  color: #737373 !important;
+}
+/* line 178, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li ul li.over span.nolink:hover {
+  color: #fff !important;
+}
+
+/*
+ul.nice-menu-down li ul	li.over span.nolink:hover {
+	color: #fff !important;
+}*/
+/* line 187, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li ul li.over {
+  color: #fff;
+}
+
+/* line 191, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li.over span.nolink {
+  background: #F58431 right center no-repeat;
+}
+
+/* line 195, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li span:hover {
+  color: #fff;
+}
+
+/* line 199, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li span.nolink > ul a {
+  background: #F58431 right center no-repeat;
+  color: #fff !important;
+}
+
+/* line 204, ../sass/nice_menus_default.scss */
+li.active a:link, li.active a:visited {
+  color: #fff;
+}
+
+/* line 208, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li ul li.menuparent span.nolink {
+  margin: 0;
+  padding: 6px 10px;
+  text-transform: none;
+  background: #DBDBDB;
+  color: #737373;
+}
+/* line 214, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li ul li.menuparent span.nolink:hover {
+  background: #F58431;
+  color: #fff;
+}
+
+/* line 220, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li span li span {
+  color: #737373 !important;
+  padding: 6px 10px;
+  text-transform: none;
+  margin: 0;
+}
+
+/* line 227, ../sass/nice_menus_default.scss */
+ul.nice-menu-down li span.nolink:focus {
+  color: #fff !important;
+}
+
+/*Keep second level child active if menu expands into the third level of links*/

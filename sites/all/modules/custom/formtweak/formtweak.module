@@ -1,0 +1,15 @@
+<?php
+/**
+  *Implementation of hook_form_alter()
+  */
+
+function formtweak_form_alter(&$form, &$form_state, $form_id){
+	if ($form_id == 'contact_site_form') {
+		$form['#submit'][] = 'stay';
+	}
+	//dsm($form);
+}
+
+function stay($form, &$form_state){
+	$form_state['redirect'] = false;
+}

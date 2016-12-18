@@ -1,0 +1,654 @@
+/**
+ * @file
+ * Block Styling
+ * edited - means the changes have to be ported to sass
+ */
+/* line 9, ../sass/blocks.scss */
+.block {
+  /* Block wrapper */
+  margin-bottom: 3px;
+}
+/* line 12, ../sass/blocks.scss */
+.block.first {
+  /* The first block in the region */
+}
+/* line 15, ../sass/blocks.scss */
+.block.last {
+  /* The last block in the region */
+}
+/* line 18, ../sass/blocks.scss */
+.block.odd {
+  /* Zebra striping for each block in the region */
+}
+/* line 21, ../sass/blocks.scss */
+.block.even {
+  /* Zebra striping for each block in the region */
+}
+/* line 24, ../sass/blocks.scss */
+.block h2.block-title {
+  /* Block title */
+  margin-bottom: 0.6em;
+}
+
+/*Custom block styles*/
+/* line 30, ../sass/blocks.scss */
+.sidebar-second #content {
+  float: left;
+  margin-left: 0;
+  margin-right: -629px;
+  width: 629px;
+}
+/* line 36, ../sass/blocks.scss */
+.sidebar-second .region-sidebar-second {
+  margin-left: 629px;
+  margin-right: -855px;
+  width: 222px;
+}
+
+/* line 43, ../sass/blocks.scss */
+#block-aggregator-category-1 {
+  /* Block for the latest news items in the first category */
+}
+
+/* line 46, ../sass/blocks.scss */
+#block-aggregator-feed-1 {
+  /* Block for the latest news items in the first feed */
+}
+
+/* line 49, ../sass/blocks.scss */
+#block-block-1 {
+  /* First block created with "Add block" link */
+}
+
+/* line 52, ../sass/blocks.scss */
+#block-blog-recent {
+  /* "Recent blog posts" block */
+}
+
+/* line 55, ../sass/blocks.scss */
+#block-book-navigation {
+  /* "Book navigation" block for the current book's table of contents */
+}
+
+/* line 58, ../sass/blocks.scss */
+#block-comment-recent {
+  /* "Recent comments" block */
+}
+
+/* line 61, ../sass/blocks.scss */
+#block-forum-active {
+  /* "Active forum topics" block */
+}
+
+/* line 64, ../sass/blocks.scss */
+#block-forum-new {
+  /* "New forum topics" block */
+}
+
+/* line 67, ../sass/blocks.scss */
+#block-locale-language {
+  /* Language switcher block */
+}
+
+/* line 70, ../sass/blocks.scss */
+#block-menu-menu-NAME {
+  /* Custom menu block */
+}
+
+/* line 73, ../sass/blocks.scss */
+#block-node-recent {
+  /* "Recent content" block */
+}
+
+/* line 76, ../sass/blocks.scss */
+#block-node-syndicate {
+  /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+/* line 79, ../sass/blocks.scss */
+#block-poll-recent {
+  /* "Most recent poll" block */
+}
+
+/* line 82, ../sass/blocks.scss */
+#block-profile-author-information {
+  /* "Author information" block for the profile of the page's author */
+}
+
+/*define a mixin to cut paragraph margins inside blocks*/
+/* line 111, ../sass/blocks.scss */
+#block-search-form {
+  /* "Search form" block */
+  margin-bottom: 17px;
+}
+
+.form-item-search-block-form {
+	vertical-align: bottom;
+}
+
+/* line 113, ../sass/blocks.scss */
+#block-search-form form#search-block-form input.form-submit {
+	line-height: 0;
+	background: #F58431;
+	height: 20px; 
+	color: #fff;
+	border: none;
+/*	padding: 4px 11px 20px;*/
+	font-weight: bold;
+	vertical-align: bottom;
+	padding: 0 11px;
+}
+/* line 126, ../sass/blocks.scss */
+#block-search-form .form-text {
+  width: 128px;
+  color: #999;
+}
+
+/*This section covers the newly installed drupal search api pages and associated displays*/
+.advanced-search-block #edit-search-api-views-fulltext{
+  width: 128px;
+  color: #999;
+}
+
+.advanced-search-block input.form-submit {
+  line-height: 0;
+  background: #F58431;
+  height: 20px; 
+  color: #fff;
+  border: none;
+/*  padding: 4px 11px 20px;*/
+  font-weight: bold;
+  vertical-align: bottom;
+  padding: 0 11px;
+  margin-top: 0 !important;
+}
+
+.advanced-search-block .views-exposed-form .views-exposed-widget {
+  padding-right: 0.3em;
+}
+
+/* line 132, ../sass/blocks.scss */
+#block-menu-menu-quickhelp {
+  padding-top: 4px;
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+/* line 133, ../sass/blocks.scss */
+#block-menu-menu-quickhelp .freeclass {
+  /*background-image: url("../images/horiz_dot_line.gif"), url("../images/quick_help.gif");
+  background-position: center top, left top;
+  background-repeat: repeat-x, no-repeat;*/
+  background-image: url("../images/quick_help.gif");
+  background-position: left top;
+  background-repeat: no-repeat;
+  font-size: 0.91666em;
+  padding-bottom: 6px;
+  padding-left: 51px;
+  padding-top: 42px;
+  background-color: #c2e0ed;
+}
+/* line 145, ../sass/blocks.scss */
+#block-menu-menu-quickhelp .freeclass ul {
+  padding-left: 22px;
+}
+/* line 147, ../sass/blocks.scss */
+#block-menu-menu-quickhelp .freeclass ul li {
+  list-style-type: disc;
+  list-style-image: none;
+}
+/* line 150, ../sass/blocks.scss */
+#block-menu-menu-quickhelp .freeclass ul li a {
+  color: #737373;
+}
+
+/*Need a hand block*/
+/* line 161, ../sass/blocks.scss */
+#block-block-7 .freeclass {
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+  color: #737373;
+  height: 86px;
+  padding-top: 4px;
+}
+/* line 87, ../sass/blocks.scss */
+#block-block-7 .freeclass p {
+  margin: 0;
+}
+
+/*Users block*/
+/* line 174, ../sass/blocks.scss */
+#block-block-6.block {
+  margin-bottom: 0;
+}
+/* line 177, ../sass/blocks.scss */
+#block-block-6 .freeclass {
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+  font-size: 0.91666em;
+  margin: 0;
+  padding-top: 4px;
+}
+/* line 87, ../sass/blocks.scss */
+#block-block-6 .freeclass p {
+  margin: 0;
+}
+
+/*Play with fred*/
+/* line 189, ../sass/blocks.scss */
+#block-menu-menu-play-with-fred {
+  padding-top: 4px;
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+/* line 190, ../sass/blocks.scss */
+#block-menu-menu-play-with-fred .freeclass {
+  background-image: url("../images/play_with_fred.gif");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: #7fb8d1;
+  font-size: 0.91666em;
+  color: #fff;
+  padding-bottom: 1px;
+  padding-left: 29px;
+  padding-top: 42px;
+}
+/* line 87, ../sass/blocks.scss */
+#block-menu-menu-play-with-fred .freeclass p {
+  margin: 0;
+}
+/* line 93, ../sass/blocks.scss */
+#block-menu-menu-play-with-fred .freeclass ul li {
+  list-style: none;
+}
+/* line 99, ../sass/blocks.scss */
+#block-menu-menu-play-with-fred .freeclass a:link, #block-menu-menu-play-with-fred .freeclass a:hover, #block-menu-menu-play-with-fred .freeclass a:visited {
+  color: #fff;
+}
+
+/*Download*/
+/* line 208, ../sass/blocks.scss */
+#block-menu-menu-download {
+  padding-top: 4px;
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+/* line 209, ../sass/blocks.scss */
+#block-menu-menu-download .freeclass {
+  background-image: url("../images/download.gif");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: #42829e;
+  font-size: 0.91666em;
+  color: #FFFFFF;
+  padding-bottom: 1px;
+  padding-left: 29px;
+  padding-top: 42px;
+}
+/* line 93, ../sass/blocks.scss */
+#block-menu-menu-download .freeclass ul li {
+  list-style: none;
+}
+/* line 99, ../sass/blocks.scss */
+#block-menu-menu-download .freeclass a:link, #block-menu-menu-download .freeclass a:hover, #block-menu-menu-download .freeclass a:visited {
+  color: #fff;
+}
+
+/*Follow Freedomfone on Twitter*/
+/* line 226, ../sass/blocks.scss */
+#block-menu-menu-follow-us {
+  padding-top: 4px;
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+/* line 227, ../sass/blocks.scss */
+#block-menu-menu-follow-us .freeclass {
+  background-image: url("../images/follow_us.gif");
+  background-position: center top, left top;
+  background-repeat: repeat-x;
+  font-size: 0.91666em;
+  padding-top: 4px;
+  color: #FFFFFF;
+  height: 116px;
+  padding-bottom: 0;
+  padding-left: 28px;
+  padding-top: 35px;
+}
+/* line 93, ../sass/blocks.scss */
+#block-menu-menu-follow-us .freeclass ul li {
+  list-style: none;
+}
+/* line 239, ../sass/blocks.scss */
+#block-menu-menu-follow-us .freeclass a:link, #block-menu-menu-follow-us .freeclass a:hover, #block-menu-menu-follow-us .freeclass a:visited {
+  color: #858585;
+}
+
+/* line 246, ../sass/blocks.scss */
+#block-webform-client-block-56 {
+  padding-top: 4px;
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+/* line 247, ../sass/blocks.scss */
+#block-webform-client-block-56 .freeclass {
+  background-image: url("../images/fred_inbox.gif"), url("../images/horiz_dot_line.gif");
+  background-position: left top, center bottom;
+  background-repeat: no-repeat, repeat-x;
+  font-size: 0.91666em;
+  padding-top: 4px;
+  height: 42px;
+  padding: 65px 0 0 2px;
+}
+/* line 255, ../sass/blocks.scss */
+#block-webform-client-block-56 .freeclass .form-item label, #block-webform-client-block-56 .freeclass #webform-component-first-name, #block-webform-client-block-56 .freeclass #webform-component-last-name {
+  display: none;
+}
+/* line 258, ../sass/blocks.scss */
+#block-webform-client-block-56 .freeclass .form-email {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  width: 145px;
+}
+/* line 263, ../sass/blocks.scss */
+#block-webform-client-block-56 .freeclass .form-actions {
+  float: right;
+  position: relative;
+  top: -43px; /*edited*/
+}
+/* line 268, ../sass/blocks.scss */
+#block-webform-client-block-56 .freeclass .form-submit {
+  background-color: #F58431;
+  border: medium none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  height: 18px;
+  padding-bottom: 0;
+  padding-left: 7px;
+  padding-right: 11px;
+  padding-top: 0;
+}
+
+#block-webform-client-block-56 .webform-component--first-name, #block-webform-client-block-56 .webform-component--last-name{
+	display: none;
+}
+
+/* line 283, ../sass/blocks.scss */
+#block-menu-secondary-menu {
+  margin-right: 48px;
+  padding-top: 1px;
+  /*position: absolute;*/
+  float: right;
+  right: 0;
+  top: 0;
+}
+/* line 290, ../sass/blocks.scss */
+#block-menu-secondary-menu ul li {
+  border-right: 1px solid #737373;
+  display: inline;
+  list-style: none outside none;
+  padding-left: 7px;
+  padding-right: 9px;
+}
+/* line 296, ../sass/blocks.scss */
+#block-menu-secondary-menu ul li.last {
+  border-right: medium none;
+  padding-right: 0;
+}
+
+/*Tweeter Block*/
+/* line 304, ../sass/blocks.scss */
+#block-block-5 {
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+  color: #737373;
+  padding-top: 4px;
+}
+/* line 310, ../sass/blocks.scss */
+#block-block-5.ftweet {
+  background-color: #EEEEFF;
+  color: #666666;
+  padding-right: 3px;
+  padding-top: 20px;
+}
+/* line 315, ../sass/blocks.scss */
+#block-block-5.ftweet h2 {
+  color: #80868A;
+  font-size: 1.33333em;
+  font-weight: bold;
+  line-height: 1.2em;
+  padding-left: 20px; /*Edited*/
+}
+/* line 322, ../sass/blocks.scss */
+#block-block-5.ftweet div.tweets-pulled-listing ul {
+  list-style: none outside none;
+  margin-bottom: 2px;
+  padding: 0 0 9px 20px;
+}
+/* line 328, ../sass/blocks.scss */
+#block-block-5 div.tweets-pulled-listing div.tweet-authorphoto {
+  display: none;
+}
+/* line 332, ../sass/blocks.scss */
+#block-block-5 div.tweets-pulled-listing .tweet-time a {
+  color: #F58431;
+}
+/* line 336, ../sass/blocks.scss */
+#block-block-5 div.tweets-pulled-listing a {
+  color: #42829E;
+}
+/* line 340, ../sass/blocks.scss */
+#block-block-5 div.tweet-time {
+	text-align: right;
+	float: none;
+	font-size: 1.3em;
+}
+
+/*News Archive*/
+/* line 346, ../sass/blocks.scss */
+#block-views-news-archives-block {
+  background-color: #DBDBDB;
+  padding: 20px 23px 9px;
+  padding-top: 4px;
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+  padding: 20px 23px 9px;
+}
+/* line 347, ../sass/blocks.scss */
+#block-views-news-archives-block h2.block-title {
+  color: #949494;
+  font-size: 1.33333em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+/* line 355, ../sass/blocks.scss */
+#block-views-news-archives-block ul {
+  /*@improv padding: 0 0 0 18px;*/
+}
+
+/*Authors*/
+/* line 363, ../sass/blocks.scss */
+#block-views-news-authors-block {
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center top;
+  background-repeat: repeat-x;
+  color: #737373;
+  padding-top: 4px;
+}
+
+#block-views-news-authors-block h2.block-title {
+	color: #949494;
+    font-size: 1.33333em;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+/* line 369, ../sass/blocks.scss */
+#block-views-news-authors-block .freeclass {
+  background-color: #C2E0ED;
+  padding: 20px 23px 9px;
+}
+/* line 373, ../sass/blocks.scss */
+#block-views-news-authors-block ul {
+  /*@improv padding: 0 0 0 18px; */
+}
+
+/*Categories Block*/
+/* line 379, ../sass/blocks.scss */
+#block-views-news-categories-block {
+  background-color: #B5B5B5;
+  padding: 20px 23px 9px;
+  color: #fff;
+}
+/* line 383, ../sass/blocks.scss */
+#block-views-news-categories-block h2.block-title {
+  color: #FFFFFF;
+  font-size: 1.33333em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+/* line 389, ../sass/blocks.scss */
+#block-views-news-categories-block ul {
+  /*@improv padding: 0 0 0 18px;*/
+}
+/* line 392, ../sass/blocks.scss */
+#block-views-news-categories-block a:link, #block-views-news-categories-block a:visited {
+  color: #fff;
+}
+/* line 395, ../sass/blocks.scss */
+#block-views-news-categories-block a:hover, #block-views-news-categories-block a:focus {
+  color: #F58431;
+}
+
+/*Blogroll*/
+/* line 401, ../sass/blocks.scss */
+#block-views-blogroll-links-block-1 {
+  background-image: url("../images/horiz_dot_line.gif"), url("../images/horiz_dot_line.gif");
+  background-position: center top, center bottom;
+  background-repeat: repeat-x, repeat-x;
+  padding: 4px 0;
+}
+/* line 402, ../sass/blocks.scss */
+#block-views-blogroll-links-block-1 .freeclass {
+/*  background-color: #DBDBDB;*/
+  background-color: #B5B5B5;
+  padding: 20px 23px 9px;
+}
+/* line 406, ../sass/blocks.scss */
+#block-views-blogroll-links-block-1 h2.block-title {
+  /*color: #949494;*/
+  color: #fff;
+  font-size: 1.33333em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+/* line 412, ../sass/blocks.scss */
+#block-views-blogroll-links-block-1 .item-list ul li {
+  color: #fff;
+}
+
+#block-views-blogroll-links-block-1 .item-list ul a{
+  color: #fff;
+  /* padding: 0 0 0 18px; */
+}
+
+#block-views-blogroll-links-block-1 .item-list ul a:hover {
+  color: #F58431 !important;
+}
+/*Contact details on contact page*/
+/* line 423, ../sass/blocks.scss */
+#block-block-10 a {
+  color: #42829E;
+}
+/* line 425, ../sass/blocks.scss */
+#block-block-10 a:hover {
+  color: #F58431;
+  text-decoration: underline;
+}
+
+/*Footer */
+/* line 434, ../sass/blocks.scss */
+footer #block-block-9 {
+  float: left;
+  margin-left: 48px;
+}
+
+/* line 439, ../sass/blocks.scss */
+#block-shortcut-shortcuts {
+  /* "Shortcuts" block */
+}
+
+/* line 442, ../sass/blocks.scss */
+#block-statistics-popular {
+  /* "Popular content" block */
+}
+
+/* line 445, ../sass/blocks.scss */
+#block-system-main-menu {
+  /* "Main menu" block */
+}
+
+/* line 448, ../sass/blocks.scss */
+#block-system-management {
+  /* "Management" block for Drupal management menu */
+}
+
+/* line 451, ../sass/blocks.scss */
+#block-system-navigation {
+  /* "Navigation" block for Drupal navigation menu */
+}
+
+/* line 454, ../sass/blocks.scss */
+#block-system-user-menu {
+  /* "User menu" block for Drupal user menu */
+}
+
+/* line 457, ../sass/blocks.scss */
+#block-system-help {
+  /* "System help" block */
+}
+
+/* line 460, ../sass/blocks.scss */
+#block-system-main {
+  /* "Main page content" block */
+}
+
+/* line 463, ../sass/blocks.scss */
+#block-system-powered-by {
+  /* "Powered by Drupal" block */
+}
+
+/* line 466, ../sass/blocks.scss */
+#block-user-login {
+  /* "User login form" block */
+}
+
+/* line 469, ../sass/blocks.scss */
+#block-user-new {
+  /* "Who's new" block for a list of the newest users */
+}
+
+/* line 472, ../sass/blocks.scss */
+#block-user-online {
+  /* "Who's online" block for a list of the online users */
+}
+
+.content-type-filter-block h2, .categories-filter-block h2 {
+  font-size: 1.5em;
+}
+
+.content-type-filter-block ul li.leaf, .categories-filter-block ul li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.content-type-filter-block {
+  margin: 3em 0;
+}

@@ -1,0 +1,169 @@
+/**
+ * @file
+ * Comment Styling
+ */
+/* line 9, ../sass/comments.scss */
+.comments {
+  /* Wrapper for the list of comments and its title */
+  margin: 1.5em 0;
+}
+/* line 12, ../sass/comments.scss */
+.comments h2.title {
+  /* Heading for the list of comments */
+}
+/* line 15, ../sass/comments.scss */
+.comments h2.comment-form {
+  /* Heading for the comment form */
+}
+
+/* line 19, ../sass/comments.scss */
+.comment {
+  /* Wrapper for a single comment */
+}
+/* line 21, ../sass/comments.scss */
+.comment.comment-preview {
+  /* Preview of the comment before submitting new or updated comment */
+  background-color: #ffffea;
+  /* Drupal core will use a #ffffea background. See #1110842 */
+}
+/* line 25, ../sass/comments.scss */
+.comment.new {
+  /* A new comment since the user last viewed the page. */
+}
+/* line 28, ../sass/comments.scss */
+.comment.first {
+  /* The first comment in the list of comments */
+}
+/* line 31, ../sass/comments.scss */
+.comment.last {
+  /* The last comment in the list of comments */
+}
+/* line 34, ../sass/comments.scss */
+.comment.odd {
+  /* An odd-numbered comment in the list of comments */
+}
+/* line 37, ../sass/comments.scss */
+.comment.even {
+  /* An even-numbered comment in the list of comments */
+}
+/* line 40, ../sass/comments.scss */
+.comment.comment-by-anonymous {
+  /* A comment created by an anonymous user */
+}
+/* line 43, ../sass/comments.scss */
+.comment.comment-by-node-author {
+  /* A comment created by the node's author */
+}
+/* line 46, ../sass/comments.scss */
+.comment.comment-by-viewer {
+  /* A comment created by the current user */
+}
+/* line 49, ../sass/comments.scss */
+.comment h3.comment-title {
+  /* Comment title */
+}
+/* line 52, ../sass/comments.scss */
+.comment .new {
+  /* "New" marker for comments that are new for the current user */
+  color: #c00;
+}
+/* line 56, ../sass/comments.scss */
+.comment .user-picture {
+  /* The picture of the comment author */
+}
+/* line 59, ../sass/comments.scss */
+.comment .submitted {
+  /* The "posted by" information */
+}
+/* line 62, ../sass/comments.scss */
+.comment .permalink {
+  /* Comment's permalink wrapper */
+  text-transform: uppercase;
+  font-size: 75%;
+}
+/* line 67, ../sass/comments.scss */
+.comment .user-signature {
+  /* The user's signature */
+}
+/* line 70, ../sass/comments.scss */
+.comment ul.links {
+  /* Comment links. See also the ul.links declaration in the pages.css. */
+}
+
+/* line 74, ../sass/comments.scss */
+.indented {
+  /* Nested comments are indented */
+  margin-left: 30px;
+  /* Drupal core uses a 25px left margin */
+}
+
+/* line 78, ../sass/comments.scss */
+.comment-unpublished {
+  /* Unpublished comments */
+  /* background-color: #fff4f4; */
+  /* Drupal core uses a #fff4f4 background */
+}
+/* line 81, ../sass/comments.scss */
+.comment-unpublished p.unpublished {
+  /* The word "Unpublished" displayed underneath the content. */
+}
+
+/*Comments section*/
+/* line 88, ../sass/comments.scss */
+.comments h2.title {
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  color: #A8A8A8;
+  font-size: 1.33333em;
+  line-height: 1.2em;
+  margin-bottom: 3px;
+  margin-top: 0;
+  padding-bottom: 9px;
+  clear: both;
+}
+
+/* line 101, ../sass/comments.scss */
+.comment.odd {
+  background-color: #EDEDED;
+  padding: 20px 25px 7px;
+}
+
+/* line 106, ../sass/comments.scss */
+.comment.even {
+  background-color: #DBDBDB;
+  padding: 20px 25px 7px;
+}
+
+/* line 111, ../sass/comments.scss */
+.comment {
+  background-image: url("../images/horiz_dot_line.gif");
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  margin-bottom: 3px;
+  padding-bottom: 4px;
+}
+/* line 117, ../sass/comments.scss */
+.comment ul.links.inline {
+  background: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 122, ../sass/comments.scss */
+.comment ul.links.inline li a:link, .comment ul.links.inline li a:visited {
+  color: #42829E !important;
+}
+
+/* line 129, ../sass/comments.scss */
+.comment-unpublished p.unpublished {
+  color: #D8D8D8;
+  font-family: Impact,"Arial Narrow",Helvetica,sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  height: 0;
+  line-height: 1;
+  overflow: visible;
+  text-align: center;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}

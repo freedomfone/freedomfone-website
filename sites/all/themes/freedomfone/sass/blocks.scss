@@ -1,0 +1,473 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+@import "base";
+
+
+.block { /* Block wrapper */
+  margin-bottom: 3px;
+
+  &.first { /* The first block in the region */
+  }
+
+  &.last { /* The last block in the region */
+  }
+
+  &.odd { /* Zebra striping for each block in the region */
+  }
+
+  &.even { /* Zebra striping for each block in the region */
+  }
+
+  h2.block-title { /* Block title */
+  }
+}
+
+/*Custom block styles*/
+.sidebar-second {
+	#content {
+		float: left;
+		margin-left: 0;
+		margin-right: -629px;
+		width: 629px;
+	}
+	.region-sidebar-second {
+	    margin-left: 629px;
+	    margin-right: -855px;
+	    width: 222px;
+	}
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+/*define a mixin to cut paragraph margins inside blocks*/
+@mixin block-p {
+	p {
+		margin: 0;
+	}
+}
+
+@mixin block-list {
+	ul li {
+		list-style: none;
+	}
+}
+
+@mixin white-links {
+	a:link, a:hover, a:visited {
+		color: #fff;
+	}
+}
+
+@mixin block-wrapper {
+	padding-top: 4px;
+	background-image: url("../images/horiz_dot_line.gif");
+	background-position: center top;
+	background-repeat: repeat-x;
+}
+
+#block-search-form { /* "Search form" block */
+	margin-bottom: 17px;
+		form#search-block-form input.form-submit {
+		    background-color: #F58431;
+		    border: medium none;
+		    color: #FFFFFF;
+		    cursor: pointer;
+		    font-weight: bold;
+		    height: 24px;
+		  /*  margin-bottom: -5px; */
+		    margin-left: 5px;
+		  /*  padding-bottom: 3px; */
+		    padding-left: 17px;
+		    padding-right: 15px;
+		}
+	   .form-text {
+			width: 128px;
+			color: #999;
+	}
+}
+
+#block-menu-menu-quickhelp {
+	.freeclass {
+		/*background-image: url("../images/horiz_dot_line.gif"), url("../images/quick_help.gif");
+		background-position: center top, left top;
+		background-repeat: repeat-x, no-repeat;*/
+		background-image: url("../images/quick_help.gif");
+		background-position: left top;
+		background-repeat: no-repeat;
+		font-size: 0.91666em;
+		padding-bottom: 6px;
+		padding-left: 51px;
+		padding-top: 42px;
+		background-color: #c2e0ed;
+		ul	{
+			padding-left: 22px;
+			li {
+				list-style-type: disc;
+				list-style-image: none;
+				a {
+				    	color: #737373;	
+				}
+			}
+		}
+	}
+	@include block-wrapper;
+}
+
+/*Need a hand block*/
+#block-block-7 {
+	.freeclass {
+		background-image: url("../images/horiz_dot_line.gif");
+		background-position: center top;
+		background-repeat: repeat-x;
+		color: #737373;
+		height: 86px;
+		padding-top: 4px;
+		@include block-p;
+	}
+}
+
+/*Users block*/
+#block-block-6 {
+	&.block {
+		margin-bottom: 0;
+	}
+	.freeclass {
+		background-image: url("../images/horiz_dot_line.gif");
+		background-position: center top;
+		background-repeat: repeat-x;
+		font-size: 0.91666em;
+		margin: 0;
+		padding-top: 4px;
+		@include block-p;
+	}
+}
+
+/*Play with fred*/
+#block-menu-menu-play-with-fred {
+	.freeclass {
+		background-image: url("../images/play_with_fred.gif");
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-color: #7fb8d1;
+		font-size: 0.91666em;
+		color: #fff;
+		padding-bottom: 1px;
+		padding-left: 29px;
+		padding-top: 42px;
+		@include block-p;
+		@include block-list;
+		@include white-links;
+	}
+	@include block-wrapper;
+}
+
+/*Download*/
+#block-menu-menu-download {
+	.freeclass {
+		background-image: url("../images/download.gif");
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-color: #42829e;
+		font-size: 0.91666em;
+		color: #FFFFFF;
+		padding-bottom: 1px;
+		padding-left: 29px;
+		padding-top: 42px;
+		@include block-list;
+		@include white-links;
+	}
+	@include block-wrapper;
+}
+
+/*Follow Freedomfone on Twitter*/
+#block-menu-menu-follow-us {
+	.freeclass {
+		background-image: url("../images/follow_us.gif");
+		background-position: center top, left top;
+		background-repeat: repeat-x;
+		font-size: 0.91666em;
+		padding-top: 4px;
+		color: #FFFFFF;
+		height: 116px;
+		padding-bottom: 0;
+		padding-left: 28px;
+		padding-top: 35px;
+		@include block-list;
+		a:link, a:hover, a:visited {
+			color: #858585;
+		}
+	}
+	@include block-wrapper;
+}
+
+#block-webform-client-block-56 {
+	.freeclass {
+		background-image: url("../images/fred_inbox.gif"), url("../images/horiz_dot_line.gif");
+		background-position: left top, center bottom;
+		background-repeat: no-repeat, repeat-x;
+		font-size: 0.91666em;
+		padding-top: 4px;
+		height: 50px;
+		padding: 65px 0 0 2px;
+		.form-item label, #webform-component-first-name, #webform-component-last-name {
+			display: none;
+		}
+		.form-email {
+			border: 1px solid #CCCCCC;
+			text-align: center;
+			width: 145px;
+		}
+		.form-actions {
+			float: right;
+			position: relative;
+			top: -46px;
+		}
+		.form-submit {
+			background-color: #F58431;
+			border: medium none;
+			color: #FFFFFF;
+			cursor: pointer;
+			font-weight: bold;
+			height: 19px;
+			padding-bottom: 3px;
+			padding-left: 13px;
+			padding-right: 11px;
+		}
+	}
+	@include block-wrapper;
+}
+
+#block-menu-secondary-menu {
+	margin-right: 48px;
+    padding-top: 1px;
+    /*position: absolute;*/
+	float: right;
+    right: 0;
+    top: 0;
+	ul li {
+		border-right: 1px solid #737373;
+	    display: inline;
+	    list-style: none outside none;
+	    padding-left: 7px;
+	    padding-right: 9px;
+		&.last {
+		    border-right: medium none;
+		    padding-right: 0;
+		}
+	}
+}
+
+/*Tweeter Block*/
+#block-block-5 {
+	background-image: url("../images/horiz_dot_line.gif");
+    background-position: center top;
+    background-repeat: repeat-x;
+    color: #737373;
+    padding-top: 4px;
+	&.ftweet {
+	    background-color:#EEEEFF;
+	    color: #666666;
+	    padding-right: 3px;
+	    padding-top: 20px;
+		h2 {
+			 color: #80868A;
+			 font-size: 1.33333em;
+			 font-weight: bold;
+			 line-height: 1.2em;
+			 padding-left: 23px;
+			}
+		div.tweets-pulled-listing ul {
+			list-style: none outside none;
+			margin-bottom: 2px;
+			padding: 0 0 9px 20px;
+		}
+	}
+	div.tweets-pulled-listing div.tweet-authorphoto {
+	display: none;
+	}
+
+	div.tweets-pulled-listing .tweet-time a {
+    color: #F58431;
+	}
+
+	div.tweets-pulled-listing a {
+    color: #42829E;
+	}
+
+	div.tweet-time {
+	text-align: right;
+	}
+}
+
+/*News Archive*/
+#block-views-news-archives-block {
+	h2.block-title {
+	    color: #949494;
+	    font-size: 1.33333em;
+	    font-weight: bold;
+	    line-height: 1.2em;
+	}
+	background-color: #DBDBDB;
+	padding: 20px 23px 9px;
+	ul {
+	    padding: 0 0 0 18px;
+	}
+	@include block-wrapper;
+	padding: 20px 23px 9px;
+}
+
+/*Authors*/
+#block-views-news-authors-block {
+    background-image: url("../images/horiz_dot_line.gif");
+    background-position: center top;
+    background-repeat: repeat-x;
+    color: #737373;
+    padding-top: 4px;
+	.freeclass {
+	    background-color: #C2E0ED;
+	    padding: 20px 23px 9px;
+	}
+	ul {
+	    padding: 0 0 0 18px;
+	}
+}
+
+/*Categories Block*/
+#block-views-news-categories-block {
+	background-color: #B5B5B5;
+    padding: 20px 23px 9px;
+	color: #fff;
+	h2.block-title {
+	    color: #FFFFFF;
+	    font-size: 1.33333em;
+	    font-weight: bold;
+	    line-height: 1.2em;
+	}
+	ul {
+	    padding: 0 0 0 18px;
+	}
+	a:link, a:visited {
+		color: #fff;
+	}
+	a:hover, a:focus {
+		color: #F58431;
+	}
+}
+
+/*Blogroll*/
+#block-views-blogroll-links-block-1 {
+	.freeclass {
+		background-color: #DBDBDB;
+		padding: 20px 23px 9px;
+	}
+	h2.block-title {
+		color: #949494;
+	    font-size: 1.33333em;
+	    font-weight: bold;
+	    line-height: 1.2em;
+	}
+	.item-list ul {
+		padding: 0 0 0 18px;
+	}
+	background-image: url("../images/horiz_dot_line.gif"), url("../images/horiz_dot_line.gif");
+    background-position: center top, center bottom;
+    background-repeat: repeat-x, repeat-x;
+    padding: 4px 0;
+}
+
+/*Contact details on contact page*/
+#block-block-10 {
+	a {
+		color: #42829E;
+		&:hover {
+			color: #F58431;
+			text-decoration: underline;
+		}
+	}
+}
+
+
+/*Footer */
+footer #block-block-9 {
+	float: left;
+	margin-left: 48px;
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}
