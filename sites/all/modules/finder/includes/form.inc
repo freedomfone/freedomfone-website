@@ -533,15 +533,20 @@ function finder_form_state($finder, $form_state = NULL) {
  * @see drupal_goto()
  */
 function finder_form_goto($sep, $path = '', $query = NULL, $fragment = NULL, $http_response_code = 302) {
-
-  if (isset($_REQUEST['destination'])) {
-    extract(parse_url(urldecode($_REQUEST['destination'])));
+  // A destination in $_GET always overrides the function arguments.
+  // We do not allow absolute URLs to be passed via $_GET, as this can be an attack vector.
+  if (isset($_GET['destination']) && !url_is_external($_GET['destination'])) {
+    $destination = drupal_parse_url($_GET['destination']);
+    $path = $destination['path'];
+    $query = $destination['query'];
+    $fragment = $destination['fragment'];
   }
-  elseif (isset($_REQUEST['edit']['destination'])) {
-    extract(parse_url(urldecode($_REQUEST['edit']['destination'])));
-  }
 
-  $url = url($path, array('query' => $query, 'fragment' => $fragment, 'absolute' => TRUE));
+  $url = url($path, array(
+    'query' => $query,
+    'fragment' => $fragment,
+    'absolute' => TRUE
+  ));
 
   // custom changes - undo separator encoding
   $url = str_replace(urlencode($sep), $sep, $url);
@@ -549,20 +554,10 @@ function finder_form_goto($sep, $path = '', $query = NULL, $fragment = NULL, $ht
   // Remove newlines from the URL to avoid header injection attacks.
   $url = str_replace(array("\n", "\r"), '', $url);
 
-  // Allow modules to react to the end of the page request before redirecting.
-  // We do not want this while running update.php.
-  if (!defined('MAINTENANCE_MODE') || MAINTENANCE_MODE != 'update') {
-    module_invoke_all('exit', $url);
-  }
-
-  // Even though session_write_close() is registered as a shutdown function, we
-  // need all session data written to the database before redirecting.
-  session_write_close();
-
   header('Location: ' . $url, TRUE, $http_response_code);
 
   // The "Location" header sends a redirect status code to the HTTP daemon. In
   // some cases this can be wrong, so we make sure none of the code below the
   // drupal_goto() call gets executed upon redirection.
-  exit();
+  drupal_exit($url);
 }
