@@ -1,29 +1,37 @@
 /*clear the page of padding*/
 /* line 2, ../sass/freedomfone.scss */
+/* line 4, ../sass/freedomfone.scss */
 #header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, #footer {
   padding: 0;
 }
 
 /*styling of body*/
 /* line 7, ../sass/freedomfone.scss */
+/* line 11, ../sass/freedomfone.scss */
 body {
   font-family: "Lucida Grande", Arial, Verdana, Helvetica, Tahoma, "Bitstream Vera Sans", sans-serif;
   color: #666;
 }
 
+/* line 16, ../sass/freedomfone.scss */
 tbody {
   border-top: none;
 }
 
+/* line 20, ../sass/freedomfone.scss */
 td {
-	padding: 0 5px; /*edited*/
+  padding: 0 5px;
+  /*edited*/
 }
+
 /* line 12, ../sass/freedomfone.scss */
+/* line 27, ../sass/freedomfone.scss */
 h1, h2, h3, h4, h5 {
   font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
 }
 
 /* line 15, ../sass/freedomfone.scss */
+/* line 33, ../sass/freedomfone.scss */
 h1 {
   color: #616161;
   font-size: 2.08333em;
@@ -33,6 +41,7 @@ h1 {
 }
 
 /* line 22, ../sass/freedomfone.scss */
+/* line 43, ../sass/freedomfone.scss */
 h2 {
   color: #4D4D4D;
   font-size: 1.66666em;
@@ -42,6 +51,7 @@ h2 {
 }
 
 /* line 29, ../sass/freedomfone.scss */
+/* line 53, ../sass/freedomfone.scss */
 h3 {
   color: #7A7A7A;
   font-size: 1.33333em;
@@ -51,6 +61,7 @@ h3 {
 }
 
 /* line 36, ../sass/freedomfone.scss */
+/* line 63, ../sass/freedomfone.scss */
 h4 {
   color: #387084;
   font-size: 1.16666em;
@@ -61,6 +72,7 @@ h4 {
 }
 
 /* line 44, ../sass/freedomfone.scss */
+/* line 74, ../sass/freedomfone.scss */
 h5 {
   color: #42829E;
   font-size: 0.91666em;
@@ -71,6 +83,7 @@ h5 {
 }
 
 /* line 52, ../sass/freedomfone.scss */
+/* line 85, ../sass/freedomfone.scss */
 h6 {
   color: #42829E;
   font-size: 0.91666em;
@@ -79,12 +92,14 @@ h6 {
   margin-top: 1.09091em;
 }
 
+/* line 93, ../sass/freedomfone.scss */
 pre, code {
-	font-size: 1.1em;
-	font-family: "Bitstream Vera Sans Mono", "Courier New", monospace;
+  font-size: 1.1em;
+  font-family: "Bitstream Vera Sans Mono", "Courier New", monospace;
 }
 
 /* line 60, ../sass/freedomfone.scss */
+/* line 100, ../sass/freedomfone.scss */
 blockquote {
   border-left: 3px solid #DDDDDD;
   color: #666666;
@@ -95,29 +110,26 @@ blockquote {
 }
 
 /* line 69, ../sass/freedomfone.scss */
-a:link {
+/* line 112, ../sass/freedomfone.scss */
+a:link, a:visited {
   color: #737373;
   text-decoration: none;
 }
-
-/* line 73, ../sass/freedomfone.scss */
-a:visited {
-  color: #737373;
-  text-decoration: none;
-}
-
-/* line 77, ../sass/freedomfone.scss */
+/* line 116, ../sass/freedomfone.scss */
 a:hover, a:focus {
   color: #F58431;
   text-decoration: underline;
 }
-
-/* line 81, ../sass/freedomfone.scss */
+/* line 120, ../sass/freedomfone.scss */
 a:active {
   color: #737373;
 }
 
+/* line 73, ../sass/freedomfone.scss */
+/* line 77, ../sass/freedomfone.scss */
+/* line 81, ../sass/freedomfone.scss */
 /* line 85, ../sass/freedomfone.scss */
+/* line 133, ../sass/freedomfone.scss */
 #page {
   color: #666666;
   font-size: 0.75em;
@@ -126,12 +138,14 @@ a:active {
 }
 
 /* line 92, ../sass/freedomfone.scss */
+/* line 142, ../sass/freedomfone.scss */
 #header {
   background-image: url("../images/header_bg.gif");
   background-repeat: no-repeat;
 }
 
 /* line 97, ../sass/freedomfone.scss */
+/* line 149, ../sass/freedomfone.scss */
 #header-inner {
   background-image: url("../images/main_bg.gif");
   background-repeat: no-repeat;
@@ -139,6 +153,7 @@ a:active {
 }
 
 /* line 103, ../sass/freedomfone.scss */
+/* line 157, ../sass/freedomfone.scss */
 #ff-top-nav {
   margin-right: 30px;
   position: absolute;
@@ -148,39 +163,53 @@ a:active {
 
 /*tabs area*/
 /* line 114, ../sass/freedomfone.scss */
+/* line 169, ../sass/freedomfone.scss */
 #content-inner .tabs.primary li a {
   font-weight: bold;
   text-decoration: none;
   color: #777777;
 }
-/* line 119, ../sass/freedomfone.scss */
+/* line 174, ../sass/freedomfone.scss */
 #content-inner .tabs.primary li.active a {
   color: #000;
 }
-/* line 121, ../sass/freedomfone.scss */
+/* line 176, ../sass/freedomfone.scss */
 #content-inner .tabs.primary li.active a:hover {
   color: #000;
 }
-/* line 129, ../sass/freedomfone.scss */
+/* line 181, ../sass/freedomfone.scss */
 #content-inner .tabs.secondary li.active a {
   color: #fff;
 }
 
+/* line 119, ../sass/freedomfone.scss */
+/* line 121, ../sass/freedomfone.scss */
+/* line 129, ../sass/freedomfone.scss */
 /*Styling the buttons*/
 /* line 137, ../sass/freedomfone.scss */
-button, input[type="button"], input[type="reset"], input[type="submit"] {
+/* line 195, ../sass/freedomfone.scss */
+button {
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+/* line 202, ../sass/freedomfone.scss */
+input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   font-size: 11px;
   line-height: 14px;
 }
 
 /* line 143, ../sass/freedomfone.scss */
+/* line 211, ../sass/freedomfone.scss */
 button, input, textarea {
   font-size: 11px;
-/* why oh why?  height: 16px; */
+  /* why oh why?  height: 16px; */
 }
 
 /* line 147, ../sass/freedomfone.scss */
+/* line 218, ../sass/freedomfone.scss */
 #main {
   /*background-image: url("../images/main_bg.gif");*/
   margin-top: 3.9em;
@@ -189,6 +218,7 @@ button, input, textarea {
 }
 
 /* line 154, ../sass/freedomfone.scss */
+/* line 227, ../sass/freedomfone.scss */
 footer {
   background-image: url("../images/footer_bg.gif");
   background-repeat: no-repeat;
@@ -198,22 +228,25 @@ footer {
 
 /*Custom block styles*/
 /* line 162, ../sass/freedomfone.scss */
+/* line 237, ../sass/freedomfone.scss */
 .home-heading {
   text-align: right;
   margin-right: 48px;
   padding-top: 42px;
 }
-/* line 166, ../sass/freedomfone.scss */
+/* line 241, ../sass/freedomfone.scss */
 .home-heading p {
   margin: 0;
 }
 
+/* line 166, ../sass/freedomfone.scss */
 /*Inside content custom styles*/
 /* line 173, ../sass/freedomfone.scss */
+/* line 252, ../sass/freedomfone.scss */
 .view-interactive-graphic #views_slideshow_pager_field_item_top_interactive_graphic-block_1_0 {
   display: none;
 }
-/* line 176, ../sass/freedomfone.scss */
+/* line 255, ../sass/freedomfone.scss */
 .view-interactive-graphic .views-slideshow-controls-top {
   background-image: url("../images/ig_menu_bg.png");
   background-repeat: no-repeat;
@@ -222,19 +255,19 @@ footer {
   width: 96px;
   z-index: 1000;
 }
-/* line 184, ../sass/freedomfone.scss */
+/* line 263, ../sass/freedomfone.scss */
 .view-interactive-graphic .views_slideshow_main {
   background-color: #6393AC;
   color: #FFFFFF;
   height: 282px;
   margin-left: 96px;
 }
-/* line 189, ../sass/freedomfone.scss */
+/* line 268, ../sass/freedomfone.scss */
 .view-interactive-graphic .views_slideshow_main .views-field-field-slide-description {
   font-size: 0.917em;
   padding: 9px 12px;
 }
-/* line 194, ../sass/freedomfone.scss */
+/* line 273, ../sass/freedomfone.scss */
 .view-interactive-graphic #widget_pager_top_interactive_graphic-block_1 {
   background-image: url("../images/horiz_dot_line.png");
   background-position: center top;
@@ -244,29 +277,28 @@ footer {
   padding-top: 1px;
   text-transform: uppercase;
 }
-/* line 203, ../sass/freedomfone.scss */
+/* line 282, ../sass/freedomfone.scss */
 .view-interactive-graphic .views_slideshow_pager_field_item {
   background-image: url("../images/horiz_dot_line.png");
   background-position: center bottom;
   background-repeat: repeat-x;
   height: 33px;
 }
-
+/* line 287, ../sass/freedomfone.scss */
 .view-interactive-graphic .views_slideshow_pager_field_item.active {
-	background-image: url("../images/arrow_bg.png");
-    background-repeat: no-repeat;
-	background-position: 0 0;
-    color: #FFFFFF;
-    cursor: pointer;
+  background-image: url("../images/arrow_bg.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: #FFFFFF;
+  cursor: pointer;
 }
-
-/* line 208, ../sass/freedomfone.scss */
+/* line 294, ../sass/freedomfone.scss */
 .view-interactive-graphic .views_slideshow_pager_field_item .views-field-field-slide-title {
   height: 23px;
   margin-top: 2px;
   padding: 7px 0 0 12px;
 }
-/* line 212, ../sass/freedomfone.scss */
+/* line 298, ../sass/freedomfone.scss */
 .view-interactive-graphic .views_slideshow_pager_field_item .views-field-field-slide-title:hover {
   background-image: url("../images/arrow_bg.png");
   background-repeat: no-repeat;
@@ -274,8 +306,16 @@ footer {
   cursor: pointer;
 }
 
+/* line 176, ../sass/freedomfone.scss */
+/* line 184, ../sass/freedomfone.scss */
+/* line 189, ../sass/freedomfone.scss */
+/* line 194, ../sass/freedomfone.scss */
+/* line 203, ../sass/freedomfone.scss */
+/* line 208, ../sass/freedomfone.scss */
+/* line 212, ../sass/freedomfone.scss */
 /*Front Page Design*/
 /* line 224, ../sass/freedomfone.scss */
+/* line 326, ../sass/freedomfone.scss */
 .front .node-teaser {
   background-image: url("../images/horiz_dot_line.gif");
   background-position: center top;
@@ -283,49 +323,53 @@ footer {
   margin-top: 20px;
   padding-top: 20px;
 }
-/* line 233, ../sass/freedomfone.scss */
+/* line 334, ../sass/freedomfone.scss */
 .front .views-row-first .node-page .node-inner, .front .views-row-first .node-story header {
   background-image: url("../images/latest_news.gif");
   background-position: left top;
   background-repeat: no-repeat;
 }
-/* line 237, ../sass/freedomfone.scss */
+/* line 339, ../sass/freedomfone.scss */
 .front .views-row-first .node-page .node-inner h2, .front .views-row-first .node-story header h2 {
   padding-top: 42px;
 }
-/* line 243, ../sass/freedomfone.scss */
+/* line 343, ../sass/freedomfone.scss */
 .front .node-story .node-title, .front .node-page .node-title {
   font-size: 1.5em;
   line-height: 1.2em;
 }
-/* line 247, ../sass/freedomfone.scss */
-.front .node-story h2.node-title a:visited, .front .node-story h2.node-title a:link, .front .node-page h2.node-title a:visited, .front .node-page h2.node-title a:link {
+/* line 348, ../sass/freedomfone.scss */
+.front .node-story h2.node-title a:visited, .front .node-story h2.node-title a:link {
   color: #F58431;
 }
-/* line 250, ../sass/freedomfone.scss */
+/* line 353, ../sass/freedomfone.scss */
+.front .node-page h2.node-title a:visited, .front .node-page h2.node-title a:link {
+  color: #F58431;
+}
+/* line 357, ../sass/freedomfone.scss */
 .front .node-story h2.node-title a:hover, .front .node-page h2.node-title a:hover {
   text-decoration: underline;
 }
-/* line 253, ../sass/freedomfone.scss */
+/* line 360, ../sass/freedomfone.scss */
 .front .node-story .submitted, .front .node-page .submitted {
   font-size: 0.916em;
   margin-top: 1.5em;
 }
-/* line 256, ../sass/freedomfone.scss */
+/* line 364, ../sass/freedomfone.scss */
 .front .node-story .submitted a, .front .node-page .submitted a {
   color: #42829E;
   font-weight: normal !important;
 }
-/* line 260, ../sass/freedomfone.scss */
+/* line 368, ../sass/freedomfone.scss */
 .front .node-story ul.links a, .front .node-page ul.links a {
   color: #F58431 !important;
   font-weight: normal !important;
 }
-/* line 262, ../sass/freedomfone.scss */
+/* line 372, ../sass/freedomfone.scss */
 .front .node-story ul.links a:hover, .front .node-page ul.links a:hover {
   text-decoration: underline;
 }
-/* line 267, ../sass/freedomfone.scss */
+/* line 375, ../sass/freedomfone.scss */
 .front article.node-home {
   background-image: url("../images/horiz_dot_line.png"), url("../images/horiz_dot_line.png");
   background-position: center top, center bottom;
@@ -336,25 +380,44 @@ footer {
   padding: 10px 0 8px;
 }
 
+/* line 233, ../sass/freedomfone.scss */
+/* line 237, ../sass/freedomfone.scss */
+/* line 243, ../sass/freedomfone.scss */
+/* line 247, ../sass/freedomfone.scss */
+/* line 250, ../sass/freedomfone.scss */
+/* line 253, ../sass/freedomfone.scss */
+/* line 256, ../sass/freedomfone.scss */
+/* line 260, ../sass/freedomfone.scss */
+/* line 262, ../sass/freedomfone.scss */
+/* line 267, ../sass/freedomfone.scss */
 /*Different types of content have different styles*/
 /* line 280, ../sass/freedomfone.scss */
+/* line 410, ../sass/freedomfone.scss */
 .node-type-page article a:link, .node-type-page article a:visited {
   color: #42829E;
   font-weight: bold;
 }
 
+/* line 417, ../sass/freedomfone.scss */
 .node-type-users article a:link, .node-type-users article a:visited {
   font-weight: normal;
   color: #42829E;
 }
 
 /* line 284, ../sass/freedomfone.scss */
-.node-type-page article a:hover, .node-type-page article a:focus, .node-type-users article a:hover, .node-type-users article a:focus {
+/* line 426, ../sass/freedomfone.scss */
+.node-type-page article a:hover, .node-type-page article a:focus {
+  color: #F58431;
+}
+
+/* line 432, ../sass/freedomfone.scss */
+.node-type-users article a:hover, .node-type-users article a:focus {
   color: #F58431;
 }
 
 /*Section News Page*/
 /* line 344, ../sass/freedomfone.scss */
+/* line 440, ../sass/freedomfone.scss */
 .section-news {
   /*Latest News Page*/
   /*The teaser body*/
@@ -362,12 +425,11 @@ footer {
   /*The Category links*/
   /*Any other news page*/
 }
-
+/* line 446, ../sass/freedomfone.scss */
 .section-news #content-inner p img {
-/*	border: 1px solid #999; edited*/
+  /*	border: 1px solid #999; edited*/
 }
-
-/* line 347, ../sass/freedomfone.scss */
+/* line 449, ../sass/freedomfone.scss */
 .section-news .view-header {
   /**Legend addition**/
   background-image: url("../images/horiz_dot_line.gif");
@@ -382,12 +444,12 @@ footer {
   margin-top: 0;
   padding-bottom: 0.35em;
 }
-/* line 361, ../sass/freedomfone.scss */
+/* line 464, ../sass/freedomfone.scss */
 .section-news .view-latest-news .views-row {
   margin-bottom: 14px;
   padding-bottom: 40px;
 }
-/* line 366, ../sass/freedomfone.scss */
+/* line 468, ../sass/freedomfone.scss */
 .section-news .view-latest-news .views-field-title h2 {
   color: #4D4D4D;
   font-size: 1.16666em;
@@ -399,37 +461,36 @@ footer {
   background-repeat: repeat-x;
   padding-top: 14px;
 }
-
+/* line 479, ../sass/freedomfone.scss */
 .section-news .view-latest-news .views-row-first .views-field-title h2 {
-    background: none;
-    color: #4D4D4D;
-    font-size: 1.16666em;
-    line-height: 1.3em;
-    margin-bottom: 0.8em;
-    margin-top: 0;
-    padding-top: 7px; 
+  background: none;
+  color: #4D4D4D;
+  font-size: 1.16666em;
+  line-height: 1.3em;
+  margin-bottom: 0.8em;
+  margin-top: 0;
+  padding-top: 7px;
 }
-
-/* line 376, ../sass/freedomfone.scss */
+/* line 489, ../sass/freedomfone.scss */
 .section-news .view-latest-news .views-field-title h2:hover {
   color: #F58431;
   text-decoration: underline;
 }
-/* line 382, ../sass/freedomfone.scss */
+/* line 494, ../sass/freedomfone.scss */
 .section-news .view-latest-news .views-field-title a:link, .section-news .view-latest-news .views-field-title a:visited {
   color: #4D4D4D;
 }
-/* line 387, ../sass/freedomfone.scss */
+/* line 499, ../sass/freedomfone.scss */
 .section-news .view-latest-news .submitted {
   color: #999999;
   font-size: 0.91666em;
   line-height: 1.2em;
 }
-/* line 316, ../sass/freedomfone.scss */
+/* line 504, ../sass/freedomfone.scss */
 .section-news .view-latest-news .submitted a:link, .section-news .view-latest-news .submitted a:visited {
   color: #42829E;
 }
-/* line 392, ../sass/freedomfone.scss */
+/* line 510, ../sass/freedomfone.scss */
 .section-news .views-field-body .field-content {
   background-image: url("../images/horiz_dot_line.gif");
   background-position: center bottom;
@@ -437,27 +498,27 @@ footer {
   margin-bottom: 0.7em;
   padding-bottom: 0.5em;
 }
-/* line 394, ../sass/freedomfone.scss */
+/* line 516, ../sass/freedomfone.scss */
 .section-news .views-field-body .field-content p a {
   font-weight: normal !important;
 }
-/* line 402, ../sass/freedomfone.scss */
+/* line 521, ../sass/freedomfone.scss */
 .section-news span.views-field-view-node a:link, .section-news span.views-field-view-node a:visited {
   color: #F58431 !important;
 }
-/* line 407, ../sass/freedomfone.scss */
+/* line 525, ../sass/freedomfone.scss */
 .section-news .views-field-comments-link {
   padding: 0 1.6em 0 0;
 }
-/* line 408, ../sass/freedomfone.scss */
+/* line 527, ../sass/freedomfone.scss */
 .section-news .views-field-comments-link a {
   font-weight: normal !important;
 }
-/* line 410, ../sass/freedomfone.scss */
+/* line 529, ../sass/freedomfone.scss */
 .section-news .views-field-comments-link a:link, .section-news .views-field-comments-link a:visited {
   color: #F58431 !important;
 }
-/* line 418, ../sass/freedomfone.scss */
+/* line 534, ../sass/freedomfone.scss */
 .section-news .views-field-taxonomy-vocabulary-1 {
   background-image: url("../images/horiz_dot_line.gif");
   background-position: center top;
@@ -466,32 +527,31 @@ footer {
   padding-top: 0.9em;
   /*The actual category links*/
 }
-
-/* line 424, ../sass/freedomfone.scss */
+/* line 541, ../sass/freedomfone.scss */
 .section-news .views-field-taxonomy-vocabulary-1 span.views-label {
   font-size: 0.91666em;
   text-transform: uppercase;
   padding-right: 1.6em;
   float: left;
 }
-/* line 431, ../sass/freedomfone.scss */
+/* line 547, ../sass/freedomfone.scss */
 .section-news .views-field-taxonomy-vocabulary-1 .field-content {
   float: left;
 }
-/* line 433, ../sass/freedomfone.scss */
+/* line 549, ../sass/freedomfone.scss */
 .section-news .views-field-taxonomy-vocabulary-1 .field-content a {
   font-size: 0.91666em;
 }
-/* line 435, ../sass/freedomfone.scss */
+/* line 551, ../sass/freedomfone.scss */
 .section-news .views-field-taxonomy-vocabulary-1 .field-content a:link, .section-news .views-field-taxonomy-vocabulary-1 .field-content a:visited {
   color: #42829E;
   text-transform: uppercase;
 }
-/* line 439, ../sass/freedomfone.scss */
+/* line 555, ../sass/freedomfone.scss */
 .section-news .views-field-taxonomy-vocabulary-1 .field-content a:hover {
   color: #F58431;
 }
-/* line 447, ../sass/freedomfone.scss */
+/* line 561, ../sass/freedomfone.scss */
 .section-news h1#page-title {
   font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
   font-weight: bold;
@@ -506,7 +566,7 @@ footer {
   padding-bottom: 0.35em;
   margin-bottom: 0.7em;
 }
-/* line 450, ../sass/freedomfone.scss */
+/* line 575, ../sass/freedomfone.scss */
 .section-news h2.node-title {
   font-size: 1.16666em;
   /* 12 x 1.83333 = 14px */
@@ -515,27 +575,26 @@ footer {
   margin-top: 0;
   margin-bottom: 0.8em;
 }
-
+/* line 583, ../sass/freedomfone.scss */
 .section-news h2.node-title a:visited, .section-news h2.node-title a:link {
-	color: #4D4D4D;
+  color: #4D4D4D;
 }
-
+/* line 586, ../sass/freedomfone.scss */
 .section-news h2.node-title a:hover {
-	color: #F58431;
+  color: #F58431;
 }
-
-/* line 453, ../sass/freedomfone.scss */
+/* line 591, ../sass/freedomfone.scss */
 .section-news .submitted {
   color: #999999;
   font-size: 0.91666em;
   line-height: 1.2em;
 }
-/* line 316, ../sass/freedomfone.scss */
+/* line 596, ../sass/freedomfone.scss */
 .section-news .submitted a:link, .section-news .submitted a:visited {
   color: #42829E;
   font-weight: normal !important;
 }
-/* line 456, ../sass/freedomfone.scss */
+/* line 603, ../sass/freedomfone.scss */
 .section-news article.node-teaser .field-name-body .field-item {
   background-image: url("../images/horiz_dot_line.gif");
   background-position: center bottom;
@@ -543,12 +602,11 @@ footer {
   margin-bottom: 0.7em;
   padding-bottom: 0.5em;
 }
-
+/* line 610, ../sass/freedomfone.scss */
 .section-news article.node-teaser .field-name-body p a:link {
-	font-weight: normal !important;
+  font-weight: normal !important;
 }
-
-/* line 459, ../sass/freedomfone.scss */
+/* line 614, ../sass/freedomfone.scss */
 .section-news .node ul.links {
   background-image: url("../images/horiz_dot_line.gif");
   background-position: center bottom;
@@ -559,20 +617,20 @@ footer {
   /*We increase the padding as a hack*/
   padding-bottom: 2.2em;
 }
-/* line 464, ../sass/freedomfone.scss */
+/* line 624, ../sass/freedomfone.scss */
 .section-news .node ul.links a:link, .section-news .node ul.links a:visited {
   color: #F58431 !important;
   font-weight: normal !important;
 }
-/* line 467, ../sass/freedomfone.scss */
+/* line 628, ../sass/freedomfone.scss */
 .section-news .node ul.links a:hover {
   color: #F58431;
 }
-/* line 473, ../sass/freedomfone.scss */
+/* line 633, ../sass/freedomfone.scss */
 .section-news ul.pager a {
   font-weight: normal !important;
 }
-/* line 477, ../sass/freedomfone.scss */
+/* line 636, ../sass/freedomfone.scss */
 .section-news article.node-teaser {
   background-image: url("../images/horiz_dot_line.gif");
   background-position: center bottom;
@@ -580,39 +638,67 @@ footer {
   margin-bottom: 14px;
   padding-bottom: 40px;
 }
-/* line 486, ../sass/freedomfone.scss */
+/* line 644, ../sass/freedomfone.scss */
 .section-news .view-updates article.node-teaser {
   background-image: none;
   padding-bottom: 0;
 }
-/* line 490, ../sass/freedomfone.scss */
+/* line 648, ../sass/freedomfone.scss */
 .section-news .view-updates p a {
   font-weight: normal !important;
 }
 
+/* line 347, ../sass/freedomfone.scss */
+/* line 361, ../sass/freedomfone.scss */
+/* line 366, ../sass/freedomfone.scss */
+/* line 376, ../sass/freedomfone.scss */
+/* line 382, ../sass/freedomfone.scss */
+/* line 387, ../sass/freedomfone.scss */
+/* line 316, ../sass/freedomfone.scss */
+/* line 392, ../sass/freedomfone.scss */
+/* line 394, ../sass/freedomfone.scss */
+/* line 402, ../sass/freedomfone.scss */
+/* line 407, ../sass/freedomfone.scss */
+/* line 408, ../sass/freedomfone.scss */
+/* line 410, ../sass/freedomfone.scss */
+/* line 418, ../sass/freedomfone.scss */
+/* line 424, ../sass/freedomfone.scss */
+/* line 431, ../sass/freedomfone.scss */
+/* line 433, ../sass/freedomfone.scss */
+/* line 435, ../sass/freedomfone.scss */
+/* line 439, ../sass/freedomfone.scss */
+/* line 447, ../sass/freedomfone.scss */
+/* line 450, ../sass/freedomfone.scss */
+/* line 453, ../sass/freedomfone.scss */
+/* line 316, ../sass/freedomfone.scss */
+/* line 456, ../sass/freedomfone.scss */
+/* line 459, ../sass/freedomfone.scss */
+/* line 464, ../sass/freedomfone.scss */
+/* line 467, ../sass/freedomfone.scss */
+/* line 473, ../sass/freedomfone.scss */
+/* line 477, ../sass/freedomfone.scss */
+/* line 486, ../sass/freedomfone.scss */
+/* line 490, ../sass/freedomfone.scss */
 /*Section news section*/
 /* line 498, ../sass/freedomfone.scss */
-.section-search #page-title {
+/* line 720, ../sass/freedomfone.scss */
+.section-search #page-title, .section-search fieldset.search-advanced {
   display: none;
 }
-/* line 502, ../sass/freedomfone.scss */
-.section-search fieldset.search-advanced {
-  display: none;
-}
-/* line 505, ../sass/freedomfone.scss */
+/* line 723, ../sass/freedomfone.scss */
 .section-search ol.search-results {
   padding: 0;
 }
-/* line 508, ../sass/freedomfone.scss */
+/* line 726, ../sass/freedomfone.scss */
 .section-search .search-results .search-snippet-info {
   padding-left: 0;
 }
-/* line 511, ../sass/freedomfone.scss */
+/* line 729, ../sass/freedomfone.scss */
 .section-search .form-item label {
   color: #999999;
   padding-bottom: 0.5em;
 }
-/* line 517, ../sass/freedomfone.scss */
+/* line 733, ../sass/freedomfone.scss */
 .section-search h3.title {
   background-image: url("../images/horiz_dot_line.gif");
   background-position: center top;
@@ -626,12 +712,12 @@ footer {
   padding-bottom: 0.35em;
   padding-top: 18px;
 }
-/* line 531, ../sass/freedomfone.scss */
+/* line 746, ../sass/freedomfone.scss */
 .section-search p a.username {
   font-weight: normal !important;
 }
-/* line 535, ../sass/freedomfone.scss */
-.section-search .form-submit, .section-advanced-search .form-submit {
+/* line 749, ../sass/freedomfone.scss */
+.section-search .form-submit {
   background-color: #F58431;
   border: medium none;
   color: #FFFFFF;
@@ -641,47 +727,76 @@ footer {
   padding-left: 13px;
   padding-right: 11px;
 }
+
+/* line 502, ../sass/freedomfone.scss */
+/* line 505, ../sass/freedomfone.scss */
+/* line 508, ../sass/freedomfone.scss */
+/* line 511, ../sass/freedomfone.scss */
+/* line 517, ../sass/freedomfone.scss */
+/* line 531, ../sass/freedomfone.scss */
+/* line 535, ../sass/freedomfone.scss */
+/* line 775, ../sass/freedomfone.scss */
+.section-advanced-search .form-submit {
+  background-color: #F58431;
+  border: medium none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  height: 25px;
+  padding-left: 13px;
+  padding-right: 11px;
+}
+
 /* line 546, ../sass/freedomfone.scss */
+/* line 789, ../sass/freedomfone.scss */
 .section-search .search-info {
   color: #999999;
   font-size: 0.85em;
 }
-/* line 551, ../sass/freedomfone.scss */
+/* line 793, ../sass/freedomfone.scss */
 .section-search .finder-block {
   background: #f2f0ca;
   padding-left: 12px;
   padding-top: 3px;
   padding-bottom: 3px;
 }
-/* line 556, ../sass/freedomfone.scss */
+/* line 798, ../sass/freedomfone.scss */
 .section-search .finder-block fieldset {
   border: 0 none;
   margin: 0;
   padding: 0;
 }
-/* line 560, ../sass/freedomfone.scss */
+/* line 802, ../sass/freedomfone.scss */
 .section-search .finder-block fieldset legend {
   padding-top: 5px;
 }
-/* line 564, ../sass/freedomfone.scss */
+/* line 805, ../sass/freedomfone.scss */
 .section-search .finder-block fieldset .finder-element-keywords {
   width: 90%;
 }
-/* line 568, ../sass/freedomfone.scss */
+/* line 808, ../sass/freedomfone.scss */
 .section-search .finder-block fieldset .form-item-cat {
   margin-bottom: 0.8em;
 }
-/* line 570, ../sass/freedomfone.scss */
+/* line 810, ../sass/freedomfone.scss */
 .section-search .finder-block fieldset .form-item-cat select {
   width: 90%;
 }
-/* line 575, ../sass/freedomfone.scss */
+/* line 815, ../sass/freedomfone.scss */
 .section-search .finder-block .form-item label {
   color: #666;
   padding-bottom: 0.5em;
 }
 
+/* line 551, ../sass/freedomfone.scss */
+/* line 556, ../sass/freedomfone.scss */
+/* line 560, ../sass/freedomfone.scss */
+/* line 564, ../sass/freedomfone.scss */
+/* line 568, ../sass/freedomfone.scss */
+/* line 570, ../sass/freedomfone.scss */
+/* line 575, ../sass/freedomfone.scss */
 /* line 583, ../sass/freedomfone.scss */
+/* line 839, ../sass/freedomfone.scss */
 .section-advanced-search h1#page-title {
   color: #4D4D4D;
   font-size: 1.66666em;
@@ -689,58 +804,61 @@ footer {
   margin-bottom: 0.6em;
   margin-top: 0.6em;
 }
-/* line 591, ../sass/freedomfone.scss */
+/* line 846, ../sass/freedomfone.scss */
 .section-advanced-search .finder-block {
   background: #f2f0ca;
   padding-left: 12px;
   padding-top: 3px;
   padding-bottom: 3px;
 }
-/* line 596, ../sass/freedomfone.scss */
+/* line 851, ../sass/freedomfone.scss */
 .section-advanced-search .finder-block fieldset {
   border: 0 none;
   margin: 0;
   padding: 0;
 }
-/* line 600, ../sass/freedomfone.scss */
+/* line 855, ../sass/freedomfone.scss */
 .section-advanced-search .finder-block fieldset legend {
   padding-top: 5px;
 }
-/* line 604, ../sass/freedomfone.scss */
+/* line 858, ../sass/freedomfone.scss */
 .section-advanced-search .finder-block fieldset .finder-element-keywords {
   width: 90%;
 }
-/* line 608, ../sass/freedomfone.scss */
+/* line 861, ../sass/freedomfone.scss */
 .section-advanced-search .finder-block fieldset .form-item-cat {
   margin-bottom: 0.8em;
 }
-/* line 610, ../sass/freedomfone.scss */
+/* line 863, ../sass/freedomfone.scss */
 .section-advanced-search .finder-block fieldset .form-item-cat select {
   width: 90%;
 }
-/* line 615, ../sass/freedomfone.scss */
+/* line 868, ../sass/freedomfone.scss */
 .section-advanced-search .finder-block .form-item label {
   color: #666;
   padding-bottom: 0.5em;
 }
 
+/* line 591, ../sass/freedomfone.scss */
+/* line 596, ../sass/freedomfone.scss */
+/* line 600, ../sass/freedomfone.scss */
+/* line 604, ../sass/freedomfone.scss */
+/* line 608, ../sass/freedomfone.scss */
+/* line 610, ../sass/freedomfone.scss */
+/* line 615, ../sass/freedomfone.scss */
 /*New Search Styling*/
 /* line 625, ../sass/freedomfone.scss */
-.lookup .views-exposed-widget {
+/* line 893, ../sass/freedomfone.scss */
+.lookup .views-exposed-widget, .lookup .views-submit-button {
   clear: both;
   width: 100%;
 }
-/* line 629, ../sass/freedomfone.scss */
-.lookup .views-submit-button {
-  clear: both;
-  width: 100%;
-}
-/* line 633, ../sass/freedomfone.scss */
+/* line 897, ../sass/freedomfone.scss */
 .lookup label {
   color: #999999;
   padding-bottom: 0.5em;
 }
-/* line 637, ../sass/freedomfone.scss */
+/* line 901, ../sass/freedomfone.scss */
 .lookup .views-field-title {
   font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
   font-weight: bold;
@@ -754,12 +872,16 @@ footer {
   padding-bottom: 0.35em;
   margin-bottom: 0.7em;
 }
-
+/* line 914, ../sass/freedomfone.scss */
 .lookup p a {
-	font-weight: normal !important;
+  font-weight: normal !important;
 }
 
+/* line 629, ../sass/freedomfone.scss */
+/* line 633, ../sass/freedomfone.scss */
+/* line 637, ../sass/freedomfone.scss */
 /*second generation of search powered by search api styling*/
+/* line 928, ../sass/freedomfone.scss */
 .view-clone-of-advanced-search-x2 h3.title {
   background-image: url("../images/horiz_dot_line.gif");
   background-position: center top;
@@ -773,57 +895,79 @@ footer {
   padding-bottom: 0.35em;
   padding-top: 18px;
 }
-
+/* line 940, ../sass/freedomfone.scss */
 .view-clone-of-advanced-search-x2 h3.title a {
   color: #42829E;
   text-decoration: none;
   font-weight: bold;
 }
-
+/* line 946, ../sass/freedomfone.scss */
 .view-clone-of-advanced-search-x2 p.search-info {
   color: #999999;
   font-size: 0.85em;
 }
-
+/* line 949, ../sass/freedomfone.scss */
 .view-clone-of-advanced-search-x2 p.search-info a {
   font-weight: normal !important;
 }
 
 /* line 649, ../sass/freedomfone.scss */
+/* line 959, ../sass/freedomfone.scss */
 .lookup .views-field-title a:link {
   color: #42829E;
 }
-/* line 652, ../sass/freedomfone.scss */
+/* line 962, ../sass/freedomfone.scss */
 .lookup .views-field-title a:hover {
   color: #F58431;
 }
-/* line 656, ../sass/freedomfone.scss */
+/* line 966, ../sass/freedomfone.scss */
 .lookup p.lookup-info {
   font-size: 0.91666em;
   color: #999999;
 }
-/* line 659, ../sass/freedomfone.scss */
+/* line 969, ../sass/freedomfone.scss */
 .lookup p.lookup-info a.username {
   color: #42829E;
-  font-weight: normal !important; /*edited*/
+  font-weight: normal !important;
+  /*edited*/
 }
-/* line 661, ../sass/freedomfone.scss */
+/* line 973, ../sass/freedomfone.scss */
 .lookup p.lookup-info a.username:hover {
   color: #F58431;
-  font-weight: normal !important; /*edited*/
+  font-weight: normal !important;
+  /*edited*/
 }
 
+/* line 652, ../sass/freedomfone.scss */
+/* line 656, ../sass/freedomfone.scss */
+/* line 659, ../sass/freedomfone.scss */
+/* line 661, ../sass/freedomfone.scss */
 /*This is a display of all news items on a taxonomy page, not using views*/
 /* line 670, ../sass/freedomfone.scss */
+/* line 993, ../sass/freedomfone.scss */
 .page-news-archives.section-news .free-nodelinks ul.links, .page-taxonomy-term.section-news .free-nodelinks ul.links, .page-news-authors.section-news .free-nodelinks ul.links {
   padding-bottom: 1em;
   padding-left: 0 !important;
 }
+
 /* line 672, ../sass/freedomfone.scss */
-.page-news-archives.section-news .free-nodelinks ul.links li a:visited, .page-news-archives.section-news .free-nodelinks ul.links li a:link, .page-taxonomy-term.section-news .free-nodelinks ul.links li a:visited, .page-taxonomy-term.section-news .free-nodelinks ul.links li a:link, .page-news-authors.section-news .free-nodelinks ul.links li a:visited, .page-news-authors.section-news .free-nodelinks ul.links li a:link {
+/* line 1001, ../sass/freedomfone.scss */
+.page-news-archives.section-news .free-nodelinks ul.links li a:visited, .page-news-archives.section-news .free-nodelinks ul.links li a:link {
   color: #F58431 !important;
 }
+
+/* line 1007, ../sass/freedomfone.scss */
+.page-taxonomy-term.section-news .free-nodelinks ul.links li a:visited, .page-taxonomy-term.section-news .free-nodelinks ul.links li a:link {
+  color: #F58431 !important;
+}
+
+/* line 1013, ../sass/freedomfone.scss */
+.page-news-authors.section-news .free-nodelinks ul.links li a:visited, .page-news-authors.section-news .free-nodelinks ul.links li a:link {
+  color: #F58431 !important;
+}
+
 /* line 679, ../sass/freedomfone.scss */
+/* line 1020, ../sass/freedomfone.scss */
 .page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-label, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-label, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-label {
   float: left;
   font-size: 0.91666em;
@@ -831,22 +975,44 @@ footer {
   text-transform: uppercase;
   font-weight: normal;
 }
+
 /* line 686, ../sass/freedomfone.scss */
+/* line 1030, ../sass/freedomfone.scss */
 .page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item {
   float: left;
   padding: 0 1.6em 0 0;
 }
+
 /* line 689, ../sass/freedomfone.scss */
-.page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:link, .page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:visited, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:link, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:visited, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:link, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:visited {
+/* line 1038, ../sass/freedomfone.scss */
+.page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:link, .page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:visited {
   color: #42829E;
   text-transform: uppercase;
   font-size: 0.91666em;
 }
+
+/* line 1046, ../sass/freedomfone.scss */
+.page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:link, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:visited {
+  color: #42829E;
+  text-transform: uppercase;
+  font-size: 0.91666em;
+}
+
+/* line 1054, ../sass/freedomfone.scss */
+.page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:link, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:visited {
+  color: #42829E;
+  text-transform: uppercase;
+  font-size: 0.91666em;
+}
+
 /* line 693, ../sass/freedomfone.scss */
+/* line 1063, ../sass/freedomfone.scss */
 .page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:hover, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:hover, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:hover {
   color: #F58431;
 }
+
 /* line 699, ../sass/freedomfone.scss */
+/* line 1069, ../sass/freedomfone.scss */
 .page-news-archives.section-news p.submitted a.username, .page-taxonomy-term.section-news p.submitted a.username, .page-news-authors.section-news p.submitted a.username {
   font-weight: normal;
 }
@@ -856,77 +1022,92 @@ footer {
 CONTENT PAGES
 ------------------------------------*/
 /* line 746, ../sass/freedomfone.scss */
+/* line 1081, ../sass/freedomfone.scss */
 .node-type-story #content-inner p.submitted a {
   font-weight: normal;
 }
-/* line 713, ../sass/freedomfone.scss */
-.node-type-story #content-inner p a:link, .node-type-story #content-inner p a:visited {
-  color: #42829E;
-}
-/* line 716, ../sass/freedomfone.scss */
-.node-type-story #content-inner p a:hover {
-  color: #F58431;
-}
-/* line 750, ../sass/freedomfone.scss */
+/* line 1084, ../sass/freedomfone.scss */
 .node-type-story #content-inner p a {
   font-weight: bold;
 }
-/* line 722, ../sass/freedomfone.scss */
+/* line 1085, ../sass/freedomfone.scss */
+.node-type-story #content-inner p a:link, .node-type-story #content-inner p a:visited {
+  color: #42829E;
+}
+/* line 1088, ../sass/freedomfone.scss */
+.node-type-story #content-inner p a:hover {
+  color: #F58431;
+}
+/* line 1094, ../sass/freedomfone.scss */
 .node-type-story .service-links {
   margin: 13px 0;
   text-align: center;
 }
-/* line 725, ../sass/freedomfone.scss */
+/* line 1097, ../sass/freedomfone.scss */
 .node-type-story .service-links ul.links li {
   display: inline;
   list-style-type: none;
   padding: 0 1.6em 0 0;
 }
-/* line 756, ../sass/freedomfone.scss */
+/* line 1103, ../sass/freedomfone.scss */
 .node-type-story.section-news .field-name-taxonomy-vocabulary-1 {
   float: left;
   position: relative;
   top: -38px;
 }
-/* line 761, ../sass/freedomfone.scss */
+/* line 1109, ../sass/freedomfone.scss */
 .node-type-story .field-name-taxonomy-vocabulary-1 .field-label {
   font-size: 0.91666em;
   text-transform: uppercase;
   padding-right: 1.6em;
   float: left;
 }
-/* line 767, ../sass/freedomfone.scss */
+/* line 1115, ../sass/freedomfone.scss */
 .node-type-story .field-name-taxonomy-vocabulary-1 .field-items {
   float: left;
 }
-/* line 769, ../sass/freedomfone.scss */
+/* line 1117, ../sass/freedomfone.scss */
 .node-type-story .field-name-taxonomy-vocabulary-1 .field-items .field-item {
   display: inline;
   list-style-type: none;
   padding: 0 1.6em 0 0;
 }
-/* line 773, ../sass/freedomfone.scss */
+/* line 1121, ../sass/freedomfone.scss */
 .node-type-story .field-name-taxonomy-vocabulary-1 .field-items .field-item a {
   text-transform: uppercase;
   color: #42829E;
   font-size: 0.91666em;
 }
-/* line 777, ../sass/freedomfone.scss */
+/* line 1125, ../sass/freedomfone.scss */
 .node-type-story .field-name-taxonomy-vocabulary-1 .field-items .field-item a:hover {
   color: #F58431;
 }
-/* line 784, ../sass/freedomfone.scss */
+/* line 1132, ../sass/freedomfone.scss */
 .node-type-story .node ul.links {
   /*We increase the padding as a hack*/
   padding-bottom: 2.2em;
 }
-/* line 788, ../sass/freedomfone.scss */
+/* line 1136, ../sass/freedomfone.scss */
 .node-type-story .free-nodelinks ul li.comment-add {
   float: right;
 }
 
+/* line 713, ../sass/freedomfone.scss */
+/* line 716, ../sass/freedomfone.scss */
+/* line 750, ../sass/freedomfone.scss */
+/* line 722, ../sass/freedomfone.scss */
+/* line 725, ../sass/freedomfone.scss */
+/* line 756, ../sass/freedomfone.scss */
+/* line 761, ../sass/freedomfone.scss */
+/* line 767, ../sass/freedomfone.scss */
+/* line 769, ../sass/freedomfone.scss */
+/* line 773, ../sass/freedomfone.scss */
+/* line 777, ../sass/freedomfone.scss */
+/* line 784, ../sass/freedomfone.scss */
+/* line 788, ../sass/freedomfone.scss */
 /*Users Page*/
 /* line 795, ../sass/freedomfone.scss */
+/* line 1170, ../sass/freedomfone.scss */
 #completed {
   background: #FF776B;
   float: left;
@@ -938,6 +1119,7 @@ CONTENT PAGES
 }
 
 /* line 805, ../sass/freedomfone.scss */
+/* line 1182, ../sass/freedomfone.scss */
 #running {
   background: #67cc02;
   float: left;
@@ -949,6 +1131,7 @@ CONTENT PAGES
 }
 
 /* line 815, ../sass/freedomfone.scss */
+/* line 1194, ../sass/freedomfone.scss */
 #suspended {
   background: #fe9902;
   float: left;
@@ -960,12 +1143,13 @@ CONTENT PAGES
 }
 
 /* line 825, ../sass/freedomfone.scss */
+/* line 1206, ../sass/freedomfone.scss */
 .pane-deployments {
   float: left;
   clear: both;
   width: 100%;
 }
-/* line 829, ../sass/freedomfone.scss */
+/* line 1210, ../sass/freedomfone.scss */
 .pane-deployments h2 {
   color: #4D4D4D;
   font-size: 1.66666em;
@@ -974,37 +1158,40 @@ CONTENT PAGES
   margin-top: 0.6em;
 }
 
+/* line 829, ../sass/freedomfone.scss */
 /* line 838, ../sass/freedomfone.scss */
+/* line 1223, ../sass/freedomfone.scss */
 #mapkey {
   overflow: hidden;
   float: right;
 }
-
-/* line 843, ../sass/freedomfone.scss */
+/* line 1226, ../sass/freedomfone.scss */
 #mapkey h2 {
   text-align: right;
   display: none;
 }
 
+/* line 843, ../sass/freedomfone.scss */
 /* line 848, ../sass/freedomfone.scss */
+/* line 1236, ../sass/freedomfone.scss */
 .view-Deployments {
   float: left;
   margin: 0 1em 1em 0;
   width: 100%;
   /*Theming the users table*/
 }
-/* line 852, ../sass/freedomfone.scss */
+/* line 1241, ../sass/freedomfone.scss */
 .view-Deployments .views-exposed-widgets {
   width: 100%;
   overflow: hidden;
 }
-/* line 855, ../sass/freedomfone.scss */
+/* line 1245, ../sass/freedomfone.scss */
 .view-Deployments .views-exposed-form .views-exposed-widget {
   float: left;
   /*padding: 0.5em 4em 0 0;*/
   width: 18%;
 }
-/* line 858, ../sass/freedomfone.scss */
+/* line 1249, ../sass/freedomfone.scss */
 .view-Deployments .views-exposed-form .views-exposed-widget.views-submit-button {
   float: right;
   /*padding: 0.5em 0 0 0;*/
@@ -1013,27 +1200,34 @@ CONTENT PAGES
   bottom: -3px;
   position: relative;
 }
-/* line 862, ../sass/freedomfone.scss */
+/* line 1256, ../sass/freedomfone.scss */
 .view-Deployments .views-exposed-form .views-exposed-widget.views-submit-button .form-submit {
-	background-color: #F58431;
-	border: medium none;
-	color: #FFFFFF;
-	cursor: pointer;
-	font-weight: bold;
-	margin-top: 1.1em;
-	padding: 0px 11px 0px 13px;
-	height: 22px;
+  background-color: #F58431;
+  border: medium none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1.1em;
+  padding: 0px 11px 0px 13px;
+  height: 22px;
 }
-/* line 875, ../sass/freedomfone.scss */
+/* line 1268, ../sass/freedomfone.scss */
 .view-Deployments .views-table {
   width: 100%;
 }
-/* line 879, ../sass/freedomfone.scss */
+/* line 1271, ../sass/freedomfone.scss */
 .view-Deployments .views-field-field-link {
   text-align: center;
 }
 
+/* line 852, ../sass/freedomfone.scss */
+/* line 855, ../sass/freedomfone.scss */
+/* line 858, ../sass/freedomfone.scss */
+/* line 862, ../sass/freedomfone.scss */
+/* line 875, ../sass/freedomfone.scss */
+/* line 879, ../sass/freedomfone.scss */
 /* line 885, ../sass/freedomfone.scss */
+/* line 1290, ../sass/freedomfone.scss */
 #Running {
   background: url("../../../modules/gmap/markers/small/green.png") no-repeat scroll center 0 transparent;
   padding: 3px;
@@ -1041,6 +1235,7 @@ CONTENT PAGES
 }
 
 /* line 891, ../sass/freedomfone.scss */
+/* line 1298, ../sass/freedomfone.scss */
 #Suspended {
   background: url("../../../modules/gmap/markers/small/orange.png") no-repeat scroll center 0 transparent;
   padding: 3px;
@@ -1048,6 +1243,7 @@ CONTENT PAGES
 }
 
 /* line 897, ../sass/freedomfone.scss */
+/* line 1306, ../sass/freedomfone.scss */
 #Completed {
   background: url("../../../modules/gmap/markers/small/red.png") no-repeat scroll center 0 transparent;
   padding: 3px;
@@ -1055,67 +1251,73 @@ CONTENT PAGES
 }
 
 /* line 903, ../sass/freedomfone.scss */
+/* line 1314, ../sass/freedomfone.scss */
 th.views-field-name {
   text-align: center;
 }
 
 /* line 907, ../sass/freedomfone.scss */
+/* line 1320, ../sass/freedomfone.scss */
 .view-Deployments .view-header {
   margin-bottom: 15px;
-}
-
-/* line 911, ../sass/freedomfone.scss */
-.view-Deployments .view-header {
   margin-bottom: 15px;
 }
-
-/* line 915, ../sass/freedomfone.scss */
+/* line 1324, ../sass/freedomfone.scss */
 .view-Deployments .view-header a:link, .view-Deployments .view-header a:visited {
   color: #42829E;
 }
-
-/* line 919, ../sass/freedomfone.scss */
+/* line 1327, ../sass/freedomfone.scss */
 .view-Deployments .view-header a:hover {
   color: #F58431;
 }
 
+/* line 911, ../sass/freedomfone.scss */
+/* line 915, ../sass/freedomfone.scss */
+/* line 919, ../sass/freedomfone.scss */
 /*Individual User Pages*/
 /* line 926, ../sass/freedomfone.scss */
+/* line 1343, ../sass/freedomfone.scss */
 .node-type-users p.submitted {
   font-style: italic;
   margin: 1em 0;
 }
-/* line 931, ../sass/freedomfone.scss */
+/* line 1347, ../sass/freedomfone.scss */
 .node-type-users .field-name-field-video {
   text-align: center;
 }
 
+/* line 931, ../sass/freedomfone.scss */
 /* line 941, ../sass/freedomfone.scss */
+/* line 1357, ../sass/freedomfone.scss */
 .page-user #content-inner .profile .field-label {
   font-weight: bold;
   margin: 0 0 0.2em;
 }
-/* line 945, ../sass/freedomfone.scss */
+/* line 1361, ../sass/freedomfone.scss */
 .page-user #content-inner .profile .field-item {
   margin: 0 0 1em;
 }
 
+/* line 945, ../sass/freedomfone.scss */
 /* line 956, ../sass/freedomfone.scss */
+/* line 1372, ../sass/freedomfone.scss */
 .page-node-add-users .form-field-name-field-video a.button.launcher, .page-node-add-users .form-field-name-field-video a.button.remove {
   font-size: 1.2em;
   font-weight: bold;
   padding: 5px;
 }
-/* line 963, ../sass/freedomfone.scss */
+/* line 1378, ../sass/freedomfone.scss */
 .page-node-add-users .form-item-field-sector-und select {
   height: 11.6em;
 }
-
+/* line 1381, ../sass/freedomfone.scss */
 .page-node-add-users #field-link-add-more-wrapper .form-item {
-	margin-top: 0;
+  margin-top: 0;
 }
 
+/* line 963, ../sass/freedomfone.scss */
 /* line 969, ../sass/freedomfone.scss */
+/* line 1391, ../sass/freedomfone.scss */
 form#webform-client-form-164 p {
   border-bottom: 1px solid #DDDDDD;
   font-size: 120%;
@@ -1123,123 +1325,149 @@ form#webform-client-form-164 p {
   padding-bottom: 4px;
   width: 84%;
 }
-/* line 976, ../sass/freedomfone.scss */
+/* line 1398, ../sass/freedomfone.scss */
 form#webform-client-form-164 .form-item label.option {
   position: relative;
   top: 1px;
 }
 
+/* line 976, ../sass/freedomfone.scss */
 /* line 983, ../sass/freedomfone.scss */
+/* line 1408, ../sass/freedomfone.scss */
 .form-checkboxes .form-item, .form-radios .form-item {
   margin: 0.4em 0;
 }
 
 /*Gmap Popup*/
+/* line 1415, ../sass/freedomfone.scss */
 .gmap-popup a:link, .gmap-popup a:visited {
-	color: #42829E;
+  color: #42829E;
 }
-
+/* line 1418, ../sass/freedomfone.scss */
 .gmap-popup a:hover {
-	color: #F58431;
+  color: #F58431;
 }
 
 /*Late hacks*/
-.page-taxonomy-term #content-inner article p a:link, .page-taxonomy-term #content-inner article p a:visited,
+/* line 1427, ../sass/freedomfone.scss */
+.page-taxonomy-term #content-inner article p a:link, .page-taxonomy-term #content-inner article p a:visited {
+  font-weight: normal;
+}
+/* line 1432, ../sass/freedomfone.scss */
 .page-taxonomy-term #content-inner li a:link, .page-taxonomy-term #content-inner li a:visited {
-	font-weight: normal;
+  font-weight: normal;
 }
 
+/* line 1438, ../sass/freedomfone.scss */
 .page-node-add-story select#edit-taxonomy-vocabulary-1-und, .page-node-edit select#edit-taxonomy-vocabulary-1-und {
-	height: 11.7em;
+  height: 11.7em;
 }
 
 /*Edited, it puts all file attachment uplaod buttons on the right of the form */
+/* line 1444, ../sass/freedomfone.scss */
 #edit-upload-und-0-upload-button {
-	float: right;
+  float: right;
 }
 
+/* line 1448, ../sass/freedomfone.scss */
 .loginlogout {
-	clear: both;
-    float: right;
-    margin: 0;
-    padding: 1.35em 10px;
-    text-transform: none;
+  clear: both;
+  float: right;
+  margin: 0;
+  padding: 1.35em 10px;
+  text-transform: none;
 }
 
 /*Editor Styles -- Edited*/
-.cke_skin_kama *, .cke_skin_kama a:hover, .cke_skin_kama a:link, .cke_skin_kama a:visited, .cke_skin_kama a:active {
-	white-space: normal !important;
+/* line 1459, ../sass/freedomfone.scss */
+.cke_skin_kama * {
+  white-space: normal !important;
+}
+/* line 1463, ../sass/freedomfone.scss */
+.cke_skin_kama a:hover, .cke_skin_kama a:link, .cke_skin_kama a:visited, .cke_skin_kama a:active {
+  white-space: normal !important;
 }
 
 /*Author pages*/
+/* line 1472, ../sass/freedomfone.scss */
 #content-inner .view-news-authors li a {
-	font-weight: normal;
+  font-weight: normal;
 }
-
+/* line 1476, ../sass/freedomfone.scss */
 #content-inner article.view-mode-full ul {
-	padding-left: 2em;
+  padding-left: 2em;
 }
-
+/* line 1479, ../sass/freedomfone.scss */
 #content-inner article ul ul {
-	margin-top: 0;
+  margin-top: 0;
 }
 
+/* line 1486, ../sass/freedomfone.scss */
 .front #content-inner p a:link, .front #content-inner p a:visited {
-	font-weight: normal;
+  font-weight: normal;
 }
 
+/* line 1492, ../sass/freedomfone.scss */
 .field-label-inline .field-label, .field-label-inline .field-items {
-	float: none;
-	display: inline;
+  float: none;
+  display: inline;
 }
 
-
-a#edit-cancel{
-	-webkit-align-items: flex-start;
-	text-align: center;
-	cursor: pointer;
-	color: buttontext;
-	padding: 1px 6px 2px;
-	border: 1px solid #999;
-	border-image-source: initial;
-	border-image-slice: initial;
-	border-image-width: initial;
-	border-image-outset: initial;
-	border-image-repeat: initial;
-	background-color:rgb(240, 240, 240);
-	box-sizing: border-box;
-	border-radius: 5px;
-	font-size: 11px;
+/* line 1498, ../sass/freedomfone.scss */
+a#edit-cancel {
+  -webkit-align-items: flex-start;
+  text-align: center;
+  cursor: pointer;
+  color: buttontext;
+  padding: 1px 6px 2px;
+  border: 1px solid #999;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 11px;
 }
-
+/* line 1514, ../sass/freedomfone.scss */
 a#edit-cancel:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /*This is on the page confirmation page after submission of support request.*/
+/* line 1521, ../sass/freedomfone.scss */
 .page-node-165 .links a {
-	color: #F58431;
+  color: #F58431;
 }
 
-page-node-done .links a, .page-node-done .links a:hover, .page-node-done .links a:visited {
-	color: #42829E;
+/* line 1525, ../sass/freedomfone.scss */
+page-node-done .links a {
+  color: #42829E;
+}
+
+/* line 1530, ../sass/freedomfone.scss */
+.page-node-done .links a:hover, .page-node-done .links a:visited {
+  color: #42829E;
 }
 
 /*custom styles to fix map bubbles*/
-.gm-style-iw{
-overflow:hidden !important;
+/* line 1537, ../sass/freedomfone.scss */
+.gm-style-iw {
+  overflow: hidden !important;
 }
-
+/* line 1539, ../sass/freedomfone.scss */
 .gm-style-iw > div {
-overflow:hidden !important;
+  overflow: hidden !important;
 }
 
+/* line 1544, ../sass/freedomfone.scss */
 .page-node-109 #page-title {
-margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
-
-
-
-
-
+/* line 1549, ../sass/freedomfone.scss */
+.form-item-feed-me {
+  display: none;
+}

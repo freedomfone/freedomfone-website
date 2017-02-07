@@ -38,7 +38,7 @@ table {
 #skip-link {
   margin: 0;
 }
-/* line 47, ../sass/pages.scss */
+/* line 46, ../sass/pages.scss */
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -77,13 +77,13 @@ table {
   font-size: 2em;
   line-height: 1.5em;
 }
-/* line 84, ../sass/pages.scss */
+/* line 83, ../sass/pages.scss */
 #site-name a:link,
 #site-name a:visited {
   color: #000;
   text-decoration: none;
 }
-/* line 90, ../sass/pages.scss */
+/* line 89, ../sass/pages.scss */
 #site-name a:hover,
 #site-name a:focus {
   text-decoration: underline;
@@ -120,29 +120,20 @@ table {
   color: #42829E;
   text-decoration: none;
 }
-
-#content-inner td a:hover {
-	color: #F58431;
-    text-decoration: underline;
-}
-
 /* line 128, ../sass/pages.scss */
 #content-inner li a:visited, #content-inner li a:link, #content-inner li a:visited, #content-inner li a:link {
   color: #42829E;
   text-decoration: none;
-  font-weight: bold; /*straight edit*/
 }
 /* line 133, ../sass/pages.scss */
 #content-inner li a:hover {
   color: #F58431;
   text-decoration: underline;
 }
-
 /* line 138, ../sass/pages.scss */
 #content-inner p a:link, #content-inner p a:visited {
   color: #42829E;
   text-decoration: none;
-  font-weight: bold; /*straight edit*/
 }
 /* line 143, ../sass/pages.scss */
 #content-inner p a:hover {
@@ -190,7 +181,7 @@ table {
   text-decoration: underline;
 }
 
-/* line 194, ../sass/pages.scss */
+/* line 189, ../sass/pages.scss */
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -203,7 +194,7 @@ h3.title {
 
 /* line 198, ../sass/pages.scss */
 h1, h2, h3, h4, h5 {
-  font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
+  font-family: Arial,Helvetica,Verdana,Lucida Grande,Tahoma,"Bitstream Vera Sans",sans-serif;
 }
 
 /* line 202, ../sass/pages.scss */
@@ -236,7 +227,7 @@ div.status {
   /* Normal priority messages */
 }
 
-/* line 223, ../sass/pages.scss */
+/* line 222, ../sass/pages.scss */
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -244,7 +235,7 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-/* line 228, ../sass/pages.scss */
+/* line 227, ../sass/pages.scss */
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */

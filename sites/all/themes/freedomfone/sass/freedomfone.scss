@@ -1,166 +1,241 @@
 /*clear the page of padding*/
+/* line 2, ../sass/freedomfone.scss */
+
 #header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, #footer {
 	padding: 0;
 }
 
 /*styling of body*/
+/* line 7, ../sass/freedomfone.scss */
+
 body {
 	font-family: "Lucida Grande", Arial, Verdana, Helvetica, Tahoma, "Bitstream Vera Sans", sans-serif;
 	color: #666;
 }
 
+tbody {
+	border-top: none;
+}
+
+td {
+	padding: 0 5px;
+	/*edited*/
+}
+
+/* line 12, ../sass/freedomfone.scss */
+
 h1, h2, h3, h4, h5 {
-    font-family: Arial,Helvetica,Verdana,Lucida Grande,Tahoma,"Bitstream Vera Sans",sans-serif;
+	font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
 }
+
+/* line 15, ../sass/freedomfone.scss */
+
 h1 {
-    color: #616161;
-    font-size: 2.08333em;
-    line-height: 1.2em;
-    margin-bottom: 0.5em;
-    margin-top: 0;
+	color: #616161;
+	font-size: 2.08333em;
+	line-height: 1.2em;
+	margin-bottom: 0.5em;
+	margin-top: 0;
 }
+
+/* line 22, ../sass/freedomfone.scss */
+
 h2 {
-    color: #4D4D4D;
-    font-size: 1.66666em;
-    line-height: 1.2em;
-    margin-bottom: 0.6em;
-    margin-top: 0.6em;
+	color: #4D4D4D;
+	font-size: 1.66666em;
+	line-height: 1.2em;
+	margin-bottom: 0.6em;
+	margin-top: 0.6em;
 }
+
+/* line 29, ../sass/freedomfone.scss */
+
 h3 {
-    color: #7A7A7A;
-    font-size: 1.33333em;
-    line-height: 1.2em;
-    margin-bottom: 0.75em;
-    margin-top: 0.75em;
+	color: #7A7A7A;
+	font-size: 1.33333em;
+	line-height: 1.2em;
+	margin-bottom: 0.75em;
+	margin-top: 0.75em;
 }
+
+/* line 36, ../sass/freedomfone.scss */
+
 h4 {
-    color: #387084;
-    font-size: 1.16666em;
-    font-weight: normal;
-    line-height: 1.32857em;
-    margin-bottom: 0.85714em;
-    margin-top: 0.85714em;
+	color: #387084;
+	font-size: 1.16666em;
+	font-weight: normal;
+	line-height: 1.32857em;
+	margin-bottom: 0.85714em;
+	margin-top: 0.85714em;
 }
+
+/* line 44, ../sass/freedomfone.scss */
+
 h5 {
-    color: #42829E;
-    font-size: 0.91666em;
-    line-height: 1.32857em;
-    margin-bottom: 1.09091em;
-    margin-top: 1.09091em;
-    text-transform: uppercase;
+	color: #42829E;
+	font-size: 0.91666em;
+	line-height: 1.32857em;
+	margin-bottom: 1.09091em;
+	margin-top: 1.09091em;
+	text-transform: uppercase;
 }
+
+/* line 52, ../sass/freedomfone.scss */
+
 h6 {
-    color: #42829E;
-    font-size: 0.91666em;
-    line-height: 1.32857em;
-    margin-bottom: 1.09091em;
-    margin-top: 1.09091em;
+	color: #42829E;
+	font-size: 0.91666em;
+	line-height: 1.32857em;
+	margin-bottom: 1.09091em;
+	margin-top: 1.09091em;
 }
+
+pre, code {
+	font-size: 1.1em;
+	font-family: "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
+
+/* line 60, ../sass/freedomfone.scss */
 
 blockquote {
-    border-left: 3px solid #DDDDDD;
-    color: #666666;
-    font-size: 13px;
-    line-height: 15px;
-    margin: 20px;
-    padding-left: 10px;
+	border-left: 3px solid #DDDDDD;
+	color: #666666;
+	font-size: 13px;
+	line-height: 15px;
+	margin: 20px;
+	padding-left: 10px;
 }
 
-a:link {
-    color: #737373;
-    text-decoration: none;
+/* line 69, ../sass/freedomfone.scss */
+
+a {
+	&:link, &:visited {
+		color: #737373;
+		text-decoration: none;
+	}
+	&:hover, &:focus {
+		color: #F58431;
+		text-decoration: underline;
+	}
+	&:active {
+		color: #737373;
+	}
 }
-a:visited {
-    color: #737373;
-    text-decoration: none;
-}
-a:hover, a:focus {
-    color: #F58431;
-    text-decoration: underline;
-}
-a:active {
-    color: #737373;
-}
+
+/* line 73, ../sass/freedomfone.scss */
+
+/* line 77, ../sass/freedomfone.scss */
+
+/* line 81, ../sass/freedomfone.scss */
+
+/* line 85, ../sass/freedomfone.scss */
 
 #page {
-    color: #666666;
-    font-size: 0.75em;
-    line-height: 1.333em;
+	color: #666666;
+	font-size: 0.75em;
+	line-height: 1.333em;
 	background: url("../images/main_bg.gif");
 }
+
+/* line 92, ../sass/freedomfone.scss */
 
 #header {
 	background-image: url("../images/header_bg.gif");
 	background-repeat: no-repeat;
 }
 
+/* line 97, ../sass/freedomfone.scss */
+
 #header-inner {
-    background-image: url("../images/main_bg.gif");
-    background-repeat: no-repeat;
-    position: relative;
+	background-image: url("../images/main_bg.gif");
+	background-repeat: no-repeat;
+	position: relative;
 }
 
+/* line 103, ../sass/freedomfone.scss */
+
 #ff-top-nav {
-    margin-right: 30px;
-    position: absolute;
-    right: 0;
-    top: 78px;
+	margin-right: 30px;
+	position: absolute;
+	right: 0;
+	top: 78px;
 }
 
 /*tabs area*/
-#content-inner { 
-	.tabs.primary {
-		li {
-			a {
-				font-weight: bold;
-				text-decoration: none;
-				color: #777777;
-			}
-			&.active a {
+/* line 114, ../sass/freedomfone.scss */
+
+#content-inner .tabs {
+	&.primary li {
+		a {
+			font-weight: bold;
+			text-decoration: none;
+			color: #777777;
+		}
+		&.active a {
+			color: #000;
+			&:hover {
 				color: #000;
-				&:hover {
-					color: #000;
-				}
-			}	
+			}
 		}
 	}
-	.tabs.secondary {
-		li {
-			&.active a {
-				color: #fff;
-			}
-		}
+	&.secondary li.active a {
+		color: #fff;
 	}
 }
 
+/* line 119, ../sass/freedomfone.scss */
+
+/* line 121, ../sass/freedomfone.scss */
+
+/* line 129, ../sass/freedomfone.scss */
+
 /*Styling the buttons*/
-button, input[type="button"], input[type="reset"], input[type="submit"] {
+/* line 137, ../sass/freedomfone.scss */
+
+button {
 	cursor: pointer;
 	font-size: 11px;
 	line-height: 14px;
 }
 
-button, input {
-	font-size: 11px;
+input {
+	&[type="button"], &[type="reset"], &[type="submit"] {
+		cursor: pointer;
+		font-size: 11px;
+		line-height: 14px;
+	}
 }
 
+/* line 143, ../sass/freedomfone.scss */
+
+button, input, textarea {
+	font-size: 11px;
+	/* why oh why?  height: 16px; */
+}
+
+/* line 147, ../sass/freedomfone.scss */
+
 #main {
-    /*background-image: url("../images/main_bg.gif");*/
+	/*background-image: url("../images/main_bg.gif");*/
 	margin-top: 3.9em;
 	padding-top: 0;
 	position: inherit;
 }
 
+/* line 154, ../sass/freedomfone.scss */
+
 footer {
-    background-image: url("../images/footer_bg.gif");
-    background-repeat: no-repeat;
-    height: 45px;
-    margin-bottom: 30px;
+	background-image: url("../images/footer_bg.gif");
+	background-repeat: no-repeat;
+	height: 45px;
+	margin-bottom: 30px;
 }
 
 /*Custom block styles*/
+/* line 162, ../sass/freedomfone.scss */
+
 .home-heading {
-    text-align: right;
+	text-align: right;
 	margin-right: 48px;
 	padding-top: 42px;
 	p {
@@ -168,7 +243,11 @@ footer {
 	}
 }
 
+/* line 166, ../sass/freedomfone.scss */
+
 /*Inside content custom styles*/
+/* line 173, ../sass/freedomfone.scss */
+
 .view-interactive-graphic {
 	#views_slideshow_pager_field_item_top_interactive_graphic-block_1_0 {
 		display: none;
@@ -188,202 +267,228 @@ footer {
 		margin-left: 96px;
 		.views-field-field-slide-description {
 			font-size: 0.917em;
-		    padding: 9px 12px;
+			padding: 9px 12px;
 		}
 	}
 	#widget_pager_top_interactive_graphic-block_1 {
-	    background-image: url("../images/horiz_dot_line.png");
-	    background-position: center top;
-	    background-repeat: repeat-x;
-	    font-size: 0.917em;
-	    margin-top: 17px;
-	    padding-top: 1px;
-	    text-transform: uppercase;
+		background-image: url("../images/horiz_dot_line.png");
+		background-position: center top;
+		background-repeat: repeat-x;
+		font-size: 0.917em;
+		margin-top: 17px;
+		padding-top: 1px;
+		text-transform: uppercase;
 	}
 	.views_slideshow_pager_field_item {
-	    background-image: url("../images/horiz_dot_line.png");
-	    background-position: center bottom;
-	    background-repeat: repeat-x;
-	    height: 33px;
+		background-image: url("../images/horiz_dot_line.png");
+		background-position: center bottom;
+		background-repeat: repeat-x;
+		height: 33px;
 		&.active {
 			background-image: url("../images/arrow_bg.png");
-		    background-repeat: no-repeat;
+			background-repeat: no-repeat;
 			background-position: 0 0;
-		    color: #FFFFFF;
-		    cursor: pointer;
+			color: #FFFFFF;
+			cursor: pointer;
 		}
 		.views-field-field-slide-title {
-		    height: 23px;
-		    margin-top: 2px;
-		    padding: 7px 0 0 12px;
+			height: 23px;
+			margin-top: 2px;
+			padding: 7px 0 0 12px;
 			&:hover {
 				background-image: url("../images/arrow_bg.png");
-			    background-repeat: no-repeat;
-			    color: #FFFFFF;
-			    cursor: pointer;
+				background-repeat: no-repeat;
+				color: #FFFFFF;
+				cursor: pointer;
 			}
 		}
 	}
 }
 
+/* line 176, ../sass/freedomfone.scss */
+
+/* line 184, ../sass/freedomfone.scss */
+
+/* line 189, ../sass/freedomfone.scss */
+
+/* line 194, ../sass/freedomfone.scss */
+
+/* line 203, ../sass/freedomfone.scss */
+
+/* line 208, ../sass/freedomfone.scss */
+
+/* line 212, ../sass/freedomfone.scss */
+
 /*Front Page Design*/
+/* line 224, ../sass/freedomfone.scss */
+
 .front {
 	.node-teaser {
-    background-image: url("../images/horiz_dot_line.gif");
-    background-position: center top;
-    background-repeat: repeat-x;
-    margin-top: 20px;
-    padding-top: 20px;
+		background-image: url("../images/horiz_dot_line.gif");
+		background-position: center top;
+		background-repeat: repeat-x;
+		margin-top: 20px;
+		padding-top: 20px;
 	}
-
- 	.views-row-first {
+	.views-row-first {
 		.node-page .node-inner, .node-story header {
 			background-image: url("../images/latest_news.gif");
 			background-position: left top;
 			background-repeat: no-repeat;
-			h2 {
-				padding-top: 42px;
-			}
+		}
+		.node-page .node-inner h2, .node-story header h2 {
+			padding-top: 42px;
 		}
 	}
-	.node-story, .node-page {
-		.node-title{
-			font-size: 1.5em;
-			line-height: 1.2em;
-		}
-		h2.node-title a:visited, h2.node-title a:link {
+	.node-story .node-title, .node-page .node-title {
+		font-size: 1.5em;
+		line-height: 1.2em;
+	}
+	.node-story h2.node-title a {
+		&:visited, &:link {
 			color: #F58431;
 		}
-		h2.node-title a:hover {
-			text-decoration: underline;
-		}
-		.submitted {
-			font-size: 0.916em;
-		    margin-top: 1.5em;
-			a {
-				color:#42829E;
-			}
-		}
-		ul.links a {
-			color: #F58431 !important;
-			&:hover {
-				text-decoration: underline;
-			}
+	}
+	.node-page h2.node-title a {
+		&:visited, &:link {
+			color: #F58431;
 		}
 	}
- 	article.node-home {
+	.node-story h2.node-title a:hover, .node-page h2.node-title a:hover {
+		text-decoration: underline;
+	}
+	.node-story .submitted, .node-page .submitted {
+		font-size: 0.916em;
+		margin-top: 1.5em;
+	}
+	.node-story .submitted a, .node-page .submitted a {
+		color: #42829E;
+		font-weight: normal !important;
+	}
+	.node-story ul.links a, .node-page ul.links a {
+		color: #F58431 !important;
+		font-weight: normal !important;
+	}
+	.node-story ul.links a:hover, .node-page ul.links a:hover {
+		text-decoration: underline;
+	}
+	article.node-home {
 		background-image: url("../images/horiz_dot_line.png"), url("../images/horiz_dot_line.png");
-	    background-position: center top, center bottom;
-	    background-repeat: repeat-x, repeat-x;
-	    font-size: 1.25em;
-	    line-height: 1.2em;
-	    margin: 20px 0;
-	    padding: 10px 0 8px;
+		background-position: center top, center bottom;
+		background-repeat: repeat-x, repeat-x;
+		font-size: 1.25em;
+		line-height: 1.2em;
+		margin: 20px 0;
+		padding: 10px 0 8px;
 	}
 }
 
+/* line 233, ../sass/freedomfone.scss */
+
+/* line 237, ../sass/freedomfone.scss */
+
+/* line 243, ../sass/freedomfone.scss */
+
+/* line 247, ../sass/freedomfone.scss */
+
+/* line 250, ../sass/freedomfone.scss */
+
+/* line 253, ../sass/freedomfone.scss */
+
+/* line 256, ../sass/freedomfone.scss */
+
+/* line 260, ../sass/freedomfone.scss */
+
+/* line 262, ../sass/freedomfone.scss */
+
+/* line 267, ../sass/freedomfone.scss */
+
 /*Different types of content have different styles*/
-@mixin user-page-links {
-	a:link, a:visited {
+/* line 280, ../sass/freedomfone.scss */
+
+.node-type-page article a {
+	&:link, &:visited {
 		color: #42829E;
 		font-weight: bold;
 	}
-	a:hover, a:focus {
+}
+
+.node-type-users article a {
+	&:link, &:visited {
+		font-weight: normal;
+		color: #42829E;
+	}
+}
+
+/* line 284, ../sass/freedomfone.scss */
+
+.node-type-page article a {
+	&:hover, &:focus {
 		color: #F58431;
 	}
 }
 
-@mixin news-search-content-h1 {
-		font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
-		font-weight: bold;
-		font-size: 1.5em; /* 12 x 1.5 = 18px */
-    	line-height: 1.2em;
-		color: #616161;
-		background-image: url(../images/horiz_dot_line.gif);
-		background-position: bottom;
-		background-repeat: repeat-x;
-		margin-top: 0;
-		padding-bottom: 0.35em;
-    	margin-bottom: 0.7em;
-}
-
-@mixin news-search-comment-h2 {
-		font-size: 1.16666em; /* 12 x 1.83333 = 14px */
-        line-height: 1.3em;
-		color: #4D4D4D;
-		margin-top: 0;
-        margin-bottom: 0.8em;
-}
-
-@mixin news-comment-submitted {
-	color: #999999;
-	font-size: 0.91666em;
-	line-height: 1.2em;
-	a {
-		&:link, &:visited {
-			color: #42829E;
-		}
+.node-type-users article a {
+	&:hover, &:focus {
+		color: #F58431;
 	}
 }
 
-@mixin teaser-body {
-	background-image: url("../images/horiz_dot_line.gif");
-    background-position: center bottom;
-    background-repeat: repeat-x;
-    margin-bottom: 0.7em;
-    padding-bottom: 0.5em;
-}
-
-@mixin news-comment-read-more {
-	background-image: url("../images/horiz_dot_line.gif");
-    background-position: center bottom;
-    background-repeat: repeat-x;
-    display: block;
-    margin-bottom: 0.9em;
-    padding-bottom: 0.9em;
-}
-
-.node-type-page article, .node-type-users article {
-	@include user-page-links;
-} 
-
 /*Section News Page*/
+/* line 344, ../sass/freedomfone.scss */
+
 .section-news {
-	
 	/*Latest News Page*/
+	/*The teaser body*/
+	/*The read more and post comment links*/
+	/*The Category links*/
+	/*Any other news page*/
+	#content-inner p img {
+		/*	border: 1px solid #999; edited*/
+	}
 	.view-header {
-	//	background-image: url("../images/horiz_dot_line.gif");
-	//	background-position: center bottom;
-	//	background-repeat: repeat-x;
+		/**Legend addition**/
+		background-image: url("../images/horiz_dot_line.gif");
+		background-position: center bottom;
+		background-repeat: repeat-x;
 		color: #616161;
 		font-family: Arial,Helvetica,Verdana,Lucida Grande,Tahoma,"Bitstream Vera Sans",sans-serif;
 		font-size: 1.5em;
 		font-weight: bold;
 		line-height: 1.2em;
-	//	margin-bottom: 0.7em;
+		margin-bottom: 0.7em;
 		margin-top: 0;
 		padding-bottom: 0.35em;
 	}
 	.view-latest-news {
 		.views-row {
 			margin-bottom: 14px;
-		    padding-bottom: 40px;
+			padding-bottom: 40px;
+		}
+		.views-field-title h2 {
+			color: #4D4D4D;
+			font-size: 1.16666em;
+			line-height: 1.3em;
+			margin-bottom: 0.8em;
+			margin-top: 0;
+			background-image: url("../images/horiz_dot_line.gif");
+			background-position: center top;
+			background-repeat: repeat-x;
+			padding-top: 14px;
+		}
+		.views-row-first .views-field-title h2 {
+			background: none;
+			color: #4D4D4D;
+			font-size: 1.16666em;
+			line-height: 1.3em;
+			margin-bottom: 0.8em;
+			margin-top: 0;
+			padding-top: 7px;
 		}
 		.views-field-title {
-			h2 {
-				color: #4D4D4D;
-				font-size: 1.16666em;
-				line-height: 1.3em;
-				margin-bottom: 0.8em;
-				margin-top: 0;
-				background-image: url("../images/horiz_dot_line.gif");
-				background-position: center top;
-				background-repeat: repeat-x;
-				padding-top: 14px;
-				&:hover {
-					color: #F58431;
-					text-decoration: underline;
-				}
+			h2:hover {
+				color: #F58431;
+				text-decoration: underline;
 			}
 			a {
 				&:link, &:visited {
@@ -392,49 +497,53 @@ footer {
 			}
 		}
 		.submitted {
-			@include news-comment-submitted;
+			color: #999999;
+			font-size: 0.91666em;
+			line-height: 1.2em;
+			a {
+				&:link, &:visited {
+					color: #42829E;
+				}
+			}
 		}
 	}
-	/*The teaser body*/
 	.views-field-body .field-content {
-		@include teaser-body;
+		background-image: url("../images/horiz_dot_line.gif");
+		background-position: center bottom;
+		background-repeat: repeat-x;
+		margin-bottom: 0.7em;
+		padding-bottom: 0.5em;
 		p a {
 			font-weight: normal !important;
 		}
 	}
-	
-	/*The read more and post comment links*/
-	span.views-field-view-node {
+	span.views-field-view-node a {
+		&:link, &:visited {
+			color: #F58431 !important;
+		}
+	}
+	.views-field-comments-link {
+		padding: 0 1.6em 0 0;
 		a {
+			font-weight: normal !important;
 			&:link, &:visited {
 				color: #F58431 !important;
 			}
 		}
 	}
-	.views-field-comments-link {
-			a {
-				font-weight: normal !important;
-				&:link, &:visited {
-					color: #F58431 !important;
-				}
-			}
-		padding: 0 1.6em 0 0;
-	}
-	
-	/*The Category links*/
 	.views-field-taxonomy-vocabulary-1 {
 		background-image: url("../images/horiz_dot_line.gif");
-	    background-position: center top;
-	    background-repeat: repeat-x;
-	    margin-top: 0.9em;
-	    padding-top: 0.9em;
+		background-position: center top;
+		background-repeat: repeat-x;
+		margin-top: 0.9em;
+		padding-top: 0.9em;
+		/*The actual category links*/
 		span.views-label {
 			font-size: 0.91666em;
-		    text-transform: uppercase;
+			text-transform: uppercase;
 			padding-right: 1.6em;
 			float: left;
 		}
-		/*The actual category links*/
 		.field-content {
 			float: left;
 			a {
@@ -448,47 +557,89 @@ footer {
 				}
 			}
 		}
-	} //End of latest news page
-	
-	/*Any other news page*/
+	}
 	h1#page-title {
-		@include news-search-content-h1;
+		font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
+		font-weight: bold;
+		font-size: 1.5em;
+		/* 12 x 1.5 = 18px */
+		line-height: 1.2em;
+		color: #616161;
+		background-image: url(../images/horiz_dot_line.gif);
+		background-position: bottom;
+		background-repeat: repeat-x;
+		margin-top: 0;
+		padding-bottom: 0.35em;
+		margin-bottom: 0.7em;
 	}
 	h2.node-title {
-		@include news-search-comment-h2;
-	}
-	.submitted {
-		@include news-comment-submitted;
-	}
-	article.node-teaser .field-name-body .field-item {
-		@include teaser-body;
-	}
-	.node ul.links {
-		@include news-comment-read-more;
-		/*We increase the padding as a hack*/
-		padding-bottom: 2.2em;
+		font-size: 1.16666em;
+		/* 12 x 1.83333 = 14px */
+		line-height: 1.3em;
+		color: #4D4D4D;
+		margin-top: 0;
+		margin-bottom: 0.8em;
 		a {
-			&:link, &:visited {
-				color: #F58431 !important;
+			&:visited, &:link {
+				color: #4D4D4D;
 			}
 			&:hover {
 				color: #F58431;
 			}
 		}
 	}
-	ul.pager {
+	.submitted {
+		color: #999999;
+		font-size: 0.91666em;
+		line-height: 1.2em;
 		a {
+			&:link, &:visited {
+				color: #42829E;
+				font-weight: normal !important;
+			}
+		}
+	}
+	article.node-teaser .field-name-body {
+		.field-item {
+			background-image: url("../images/horiz_dot_line.gif");
+			background-position: center bottom;
+			background-repeat: repeat-x;
+			margin-bottom: 0.7em;
+			padding-bottom: 0.5em;
+		}
+		p a:link {
 			font-weight: normal !important;
 		}
 	}
+	.node ul.links {
+		background-image: url("../images/horiz_dot_line.gif");
+		background-position: center bottom;
+		background-repeat: repeat-x;
+		display: block;
+		margin-bottom: 0.9em;
+		padding-bottom: 0.9em;
+		/*We increase the padding as a hack*/
+		padding-bottom: 2.2em;
+		a {
+			&:link, &:visited {
+				color: #F58431 !important;
+				font-weight: normal !important;
+			}
+			&:hover {
+				color: #F58431;
+			}
+		}
+	}
+	ul.pager a {
+		font-weight: normal !important;
+	}
 	article.node-teaser {
 		background-image: url("../images/horiz_dot_line.gif");
-	    background-position: center bottom;
-	    background-repeat: repeat-x;
-	    margin-bottom: 14px;
-	    padding-bottom: 40px;
+		background-position: center bottom;
+		background-repeat: repeat-x;
+		margin-bottom: 14px;
+		padding-bottom: 40px;
 	}
-	//At the bottom of the normal news section, there is an additional piece of info
 	.view-updates {
 		article.node-teaser {
 			background-image: none;
@@ -500,33 +651,91 @@ footer {
 	}
 }
 
+/* line 347, ../sass/freedomfone.scss */
+
+/* line 361, ../sass/freedomfone.scss */
+
+/* line 366, ../sass/freedomfone.scss */
+
+/* line 376, ../sass/freedomfone.scss */
+
+/* line 382, ../sass/freedomfone.scss */
+
+/* line 387, ../sass/freedomfone.scss */
+
+/* line 316, ../sass/freedomfone.scss */
+
+/* line 392, ../sass/freedomfone.scss */
+
+/* line 394, ../sass/freedomfone.scss */
+
+/* line 402, ../sass/freedomfone.scss */
+
+/* line 407, ../sass/freedomfone.scss */
+
+/* line 408, ../sass/freedomfone.scss */
+
+/* line 410, ../sass/freedomfone.scss */
+
+/* line 418, ../sass/freedomfone.scss */
+
+/* line 424, ../sass/freedomfone.scss */
+
+/* line 431, ../sass/freedomfone.scss */
+
+/* line 433, ../sass/freedomfone.scss */
+
+/* line 435, ../sass/freedomfone.scss */
+
+/* line 439, ../sass/freedomfone.scss */
+
+/* line 447, ../sass/freedomfone.scss */
+
+/* line 450, ../sass/freedomfone.scss */
+
+/* line 453, ../sass/freedomfone.scss */
+
+/* line 316, ../sass/freedomfone.scss */
+
+/* line 456, ../sass/freedomfone.scss */
+
+/* line 459, ../sass/freedomfone.scss */
+
+/* line 464, ../sass/freedomfone.scss */
+
+/* line 467, ../sass/freedomfone.scss */
+
+/* line 473, ../sass/freedomfone.scss */
+
+/* line 477, ../sass/freedomfone.scss */
+
+/* line 486, ../sass/freedomfone.scss */
+
+/* line 490, ../sass/freedomfone.scss */
+
 /*Section news section*/
+/* line 498, ../sass/freedomfone.scss */
+
 .section-search {
-	#page-title {
-		display: none;
-	}
-	//Hide core node form advanced elements on search page
-	fieldset.search-advanced {
+	#page-title, fieldset.search-advanced {
 		display: none;
 	}
 	ol.search-results {
 		padding: 0;
 	}
 	.search-results .search-snippet-info {
-	    padding-left: 0;
+		padding-left: 0;
 	}
 	.form-item label {
-	    color: #999999;
-	    padding-bottom: 0.5em;
-	   // display: block;
-	   // font-weight: bold;
+		color: #999999;
+		padding-bottom: 0.5em;
 	}
 	h3.title {
 		background-image: url("../images/horiz_dot_line.gif");
 		background-position: center top;
 		background-repeat: repeat-x;
 		color: #42829E;
-		font-family: Arial,Helvetica,Verdana,Lucida Grande,Tahoma,"Bitstream Vera Sans",sans-serif;
+		font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
 		font-weight: bold;
 		font-size: 1.1em;
 		margin-bottom: 0.7em;
@@ -534,44 +743,68 @@ footer {
 		padding-bottom: 0.35em;
 		padding-top: 18px;
 	}
-	p {
-		a.username {
-			font-weight: normal !important;
-		}
+	p a.username {
+		font-weight: normal !important;
 	}
-	.form-submit  {
-	    background-color: #F58431;
-	    border: medium none;
-	    color: #FFFFFF;
-	    cursor: pointer;
-	    font-weight: bold;
-	    height: 25px;
-	    //padding-bottom: 3px;
-	    padding-left: 13px;
-	    padding-right: 11px;
+	.form-submit {
+		background-color: #F58431;
+		border: medium none;
+		color: #FFFFFF;
+		cursor: pointer;
+		font-weight: bold;
+		height: 25px;
+		padding-left: 13px;
+		padding-right: 11px;
 	}
+}
+
+/* line 502, ../sass/freedomfone.scss */
+
+/* line 505, ../sass/freedomfone.scss */
+
+/* line 508, ../sass/freedomfone.scss */
+
+/* line 511, ../sass/freedomfone.scss */
+
+/* line 517, ../sass/freedomfone.scss */
+
+/* line 531, ../sass/freedomfone.scss */
+
+/* line 535, ../sass/freedomfone.scss */
+
+.section-advanced-search .form-submit {
+	background-color: #F58431;
+	border: medium none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+	height: 25px;
+	padding-left: 13px;
+	padding-right: 11px;
+}
+
+/* line 546, ../sass/freedomfone.scss */
+
+.section-search {
 	.search-info {
-	    color: #999999;
-	    font-size: 0.85em;
+		color: #999999;
+		font-size: 0.85em;
 	}
-	//On the right side of page, we have a finder block...
 	.finder-block {
 		background: #f2f0ca;
 		padding-left: 12px;
 		padding-top: 3px;
 		padding-bottom: 3px;
 		fieldset {
-		    border: 0 none;
-		    margin: 0;
-		    padding: 0;
+			border: 0 none;
+			margin: 0;
+			padding: 0;
 			legend {
 				padding-top: 5px;
 			}
-			//Keyword field 
 			.finder-element-keywords {
 				width: 90%;
 			}
-			//last category item...
 			.form-item-cat {
 				margin-bottom: 0.8em;
 				select {
@@ -580,11 +813,27 @@ footer {
 			}
 		}
 		.form-item label {
-		    color: #666;
-		    padding-bottom: 0.5em;
+			color: #666;
+			padding-bottom: 0.5em;
 		}
 	}
 }
+
+/* line 551, ../sass/freedomfone.scss */
+
+/* line 556, ../sass/freedomfone.scss */
+
+/* line 560, ../sass/freedomfone.scss */
+
+/* line 564, ../sass/freedomfone.scss */
+
+/* line 568, ../sass/freedomfone.scss */
+
+/* line 570, ../sass/freedomfone.scss */
+
+/* line 575, ../sass/freedomfone.scss */
+
+/* line 583, ../sass/freedomfone.scss */
 
 .section-advanced-search {
 	h1#page-title {
@@ -594,24 +843,21 @@ footer {
 		margin-bottom: 0.6em;
 		margin-top: 0.6em;
 	}
-	//On the right side of page, we have a finder block...
 	.finder-block {
 		background: #f2f0ca;
 		padding-left: 12px;
 		padding-top: 3px;
 		padding-bottom: 3px;
 		fieldset {
-		    border: 0 none;
-		    margin: 0;
-		    padding: 0;
+			border: 0 none;
+			margin: 0;
+			padding: 0;
 			legend {
 				padding-top: 5px;
 			}
-			//Keyword field 
 			.finder-element-keywords {
 				width: 90%;
 			}
-			//last category item...
 			.form-item-cat {
 				margin-bottom: 0.8em;
 				select {
@@ -620,20 +866,31 @@ footer {
 			}
 		}
 		.form-item label {
-		    color: #666;
-		    padding-bottom: 0.5em;
+			color: #666;
+			padding-bottom: 0.5em;
 		}
 	}
 }
 
-//Advanced search styling
+/* line 591, ../sass/freedomfone.scss */
+
+/* line 596, ../sass/freedomfone.scss */
+
+/* line 600, ../sass/freedomfone.scss */
+
+/* line 604, ../sass/freedomfone.scss */
+
+/* line 608, ../sass/freedomfone.scss */
+
+/* line 610, ../sass/freedomfone.scss */
+
+/* line 615, ../sass/freedomfone.scss */
+
 /*New Search Styling*/
+/* line 625, ../sass/freedomfone.scss */
+
 .lookup {
-	.views-exposed-widget {
-		clear: both;
-		width: 100%;
-	}
-	.views-submit-button {
+	.views-exposed-widget, .views-submit-button {
 		clear: both;
 		width: 100%;
 	}
@@ -653,10 +910,56 @@ footer {
 		margin-top: 18px;
 		padding-bottom: 0.35em;
 		margin-bottom: 0.7em;
-		a:link {
+	}
+	p a {
+		font-weight: normal !important;
+	}
+}
+
+/* line 629, ../sass/freedomfone.scss */
+
+/* line 633, ../sass/freedomfone.scss */
+
+/* line 637, ../sass/freedomfone.scss */
+
+/*second generation of search powered by search api styling*/
+
+.view-clone-of-advanced-search-x2 {
+	h3.title {
+		background-image: url("../images/horiz_dot_line.gif");
+		background-position: center top;
+		background-repeat: repeat-x;
+		color: #42829E;
+		font-family: Arial, Helvetica, Verdana, Lucida Grande, Tahoma, "Bitstream Vera Sans", sans-serif;
+		font-weight: bold;
+		font-size: 1.1em;
+		margin-bottom: 0.7em;
+		margin-top: 18px;
+		padding-bottom: 0.35em;
+		padding-top: 18px;
+		a {
+			color: #42829E;
+			text-decoration: none;
+			font-weight: bold;
+		}
+	}
+	p.search-info {
+		color: #999999;
+		font-size: 0.85em;
+		a {
+			font-weight: normal !important;
+		}
+	}
+}
+
+/* line 649, ../sass/freedomfone.scss */
+
+.lookup {
+	.views-field-title a {
+		&:link {
 			color: #42829E;
 		}
-		a:hover {
+		&:hover {
 			color: #F58431;
 		}
 	}
@@ -665,109 +968,147 @@ footer {
 		color: #999999;
 		a.username {
 			color: #42829E;
+			font-weight: normal !important;
+			/*edited*/
 			&:hover {
 				color: #F58431;
+				font-weight: normal !important;
+				/*edited*/
 			}
 		}
 	}
 }
 
+/* line 652, ../sass/freedomfone.scss */
+
+/* line 656, ../sass/freedomfone.scss */
+
+/* line 659, ../sass/freedomfone.scss */
+
+/* line 661, ../sass/freedomfone.scss */
+
 /*This is a display of all news items on a taxonomy page, not using views*/
-.page-news-archives.section-news, .page-taxonomy-term.section-news, .page-news-authors.section-news {
-	.free-nodelinks ul.links {
-		li {
-			a:visited, a:link {
-			 color: #F58431 !important;
-			}
-		}
-		padding-bottom: 1em;
+/* line 670, ../sass/freedomfone.scss */
+
+.page-news-archives.section-news .free-nodelinks ul.links, .page-taxonomy-term.section-news .free-nodelinks ul.links, .page-news-authors.section-news .free-nodelinks ul.links {
+	padding-bottom: 1em;
+	padding-left: 0 !important;
+}
+
+/* line 672, ../sass/freedomfone.scss */
+
+.page-news-archives.section-news .free-nodelinks ul.links li a {
+	&:visited, &:link {
+		color: #F58431 !important;
 	}
-	.field-name-taxonomy-vocabulary-1 {
-	 .field-label {
-		float: left;
-	    font-size: 0.91666em;
-	    padding-right: 1.6em;
-	    text-transform: uppercase;
-		font-weight: normal;
-	 }
-	 .field-items .field-item {
-		float: left;
-		padding: 0 1.6em 0 0;
-		a:link, a:visited {
-			color: #42829E;
-			text-transform: uppercase;
-		}
-		a:hover {
-			color: #F58431;
-		}
-	 }
+}
+
+.page-taxonomy-term.section-news .free-nodelinks ul.links li a {
+	&:visited, &:link {
+		color: #F58431 !important;
 	}
-	p.submitted {
-		a.username {
-			font-weight: normal;
-		}
+}
+
+.page-news-authors.section-news .free-nodelinks ul.links li a {
+	&:visited, &:link {
+		color: #F58431 !important;
 	}
+}
+
+/* line 679, ../sass/freedomfone.scss */
+
+.page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-label, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-label, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-label {
+	float: left;
+	font-size: 0.91666em;
+	padding-right: 1.6em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+/* line 686, ../sass/freedomfone.scss */
+
+.page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item {
+	float: left;
+	padding: 0 1.6em 0 0;
+}
+
+/* line 689, ../sass/freedomfone.scss */
+
+.page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a {
+	&:link, &:visited {
+		color: #42829E;
+		text-transform: uppercase;
+		font-size: 0.91666em;
+	}
+}
+
+.page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a {
+	&:link, &:visited {
+		color: #42829E;
+		text-transform: uppercase;
+		font-size: 0.91666em;
+	}
+}
+
+.page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a {
+	&:link, &:visited {
+		color: #42829E;
+		text-transform: uppercase;
+		font-size: 0.91666em;
+	}
+}
+
+/* line 693, ../sass/freedomfone.scss */
+
+.page-news-archives.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:hover, .page-taxonomy-term.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:hover, .page-news-authors.section-news .field-name-taxonomy-vocabulary-1 .field-items .field-item a:hover {
+	color: #F58431;
+}
+
+/* line 699, ../sass/freedomfone.scss */
+
+.page-news-archives.section-news p.submitted a.username, .page-taxonomy-term.section-news p.submitted a.username, .page-news-authors.section-news p.submitted a.username {
+	font-weight: normal;
 }
 
 /*Node links also need to be well aligned on news archive pages*/
-
-
 /*----------------------------------
 CONTENT PAGES
 ------------------------------------*/
-
-@mixin content-blue-links-orange-hover {
-	a:link, a:visited {
-		color: #42829E;
-	}
-	a:hover {
-		color: #F58431;
-	}
-}
-
-@mixin social-media-links {
-	.service-links {
-	    margin: 13px 0;
-	    text-align: center;
-		ul.links li {
-		    display: inline;
-		    list-style-type: none;
-		    padding: 0 1.6em 0 0;
-		}
-	}
-}
-
-@mixin story-comment-node-links {
-	background-image: none;
-    float: right;
-    margin-bottom: 0;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    text-align: right;
-}
+/* line 746, ../sass/freedomfone.scss */
 
 .node-type-story {
-	#content-inner {
-		
-		p {
-			&.submitted a {
-				font-weight: normal;
+	#content-inner p {
+		&.submitted a {
+			font-weight: normal;
+		}
+		a {
+			&:link, &:visited {
+				color: #42829E;
 			}
-			@include content-blue-links-orange-hover;
-			a {
-				font-weight: bold;
+			&:hover {
+				color: #F58431;
 			}
+			font-weight: bold;
 		}
 	}
-	@include social-media-links;
-	.field-name-taxonomy-vocabulary-1 {
-		//The links show up at the bottom of post...this reorders them to align horizontally with node links
+	.service-links {
+		margin: 13px 0;
+		text-align: center;
+		ul.links li {
+			display: inline;
+			list-style-type: none;
+			padding: 0 1.6em 0 0;
+		}
+	}
+	&.section-news .field-name-taxonomy-vocabulary-1 {
 		float: left;
-	    position: relative;
-	    top: -38px;
+		position: relative;
+		top: -38px;
+	}
+	.field-name-taxonomy-vocabulary-1 {
 		.field-label {
 			font-size: 0.91666em;
-		    text-transform: uppercase;
+			text-transform: uppercase;
 			padding-right: 1.6em;
 			float: left;
 		}
@@ -775,13 +1116,13 @@ CONTENT PAGES
 			float: left;
 			.field-item {
 				display: inline;
-			    list-style-type: none;
-			    padding: 0 1.6em 0 0;
+				list-style-type: none;
+				padding: 0 1.6em 0 0;
 				a {
 					text-transform: uppercase;
 					color: #42829E;
 					font-size: 0.91666em;
-					&:hover{
+					&:hover {
 						color: #F58431;
 					}
 				}
@@ -797,180 +1138,254 @@ CONTENT PAGES
 	}
 }
 
+/* line 713, ../sass/freedomfone.scss */
+
+/* line 716, ../sass/freedomfone.scss */
+
+/* line 750, ../sass/freedomfone.scss */
+
+/* line 722, ../sass/freedomfone.scss */
+
+/* line 725, ../sass/freedomfone.scss */
+
+/* line 756, ../sass/freedomfone.scss */
+
+/* line 761, ../sass/freedomfone.scss */
+
+/* line 767, ../sass/freedomfone.scss */
+
+/* line 769, ../sass/freedomfone.scss */
+
+/* line 773, ../sass/freedomfone.scss */
+
+/* line 777, ../sass/freedomfone.scss */
+
+/* line 784, ../sass/freedomfone.scss */
+
+/* line 788, ../sass/freedomfone.scss */
+
 /*Users Page*/
+/* line 795, ../sass/freedomfone.scss */
 
 #completed {
-        background: #FF776B;
-        float: left;
-        color: white;
-        padding: 2px;
-        width: 8em;
-        font-weight: bold;
-        margin: 0 0 6px 0;
+	background: #FF776B;
+	float: left;
+	color: white;
+	padding: 2px;
+	width: 8em;
+	font-weight: bold;
+	margin: 0 0 6px 0;
 }
+
+/* line 805, ../sass/freedomfone.scss */
 
 #running {
-        background: #67cc02;
-        float: left;
-        color: white;
-        padding: 2px;
-        width: 8em;
-        font-weight: bold;
-        margin: 0 4px 6px 0;
+	background: #67cc02;
+	float: left;
+	color: white;
+	padding: 2px;
+	width: 8em;
+	font-weight: bold;
+	margin: 0 4px 6px 0;
 }
+
+/* line 815, ../sass/freedomfone.scss */
 
 #suspended {
-		background: #fe9902;
-        float: left;
-        color: white;
-        padding: 2px;
-        width: 8em;
-        font-weight: bold;
-        margin: 0 4px 6px 0;
+	background: #fe9902;
+	float: left;
+	color: white;
+	padding: 2px;
+	width: 8em;
+	font-weight: bold;
+	margin: 0 4px 6px 0;
 }
 
+/* line 825, ../sass/freedomfone.scss */
+
 .pane-deployments {
-	float:left;
+	float: left;
 	clear: both;
 	width: 100%;
 	h2 {
 		color: #4D4D4D;
-	    font-size: 1.66666em;
-	    line-height: 1.2em;
-	    margin-bottom: 0.6em;
-	    margin-top: 0.6em;
+		font-size: 1.66666em;
+		line-height: 1.2em;
+		margin-bottom: 0.6em;
+		margin-top: 0.6em;
 	}
 }
+
+/* line 829, ../sass/freedomfone.scss */
+
+/* line 838, ../sass/freedomfone.scss */
 
 #mapkey {
 	overflow: hidden;
-        float: right;
+	float: right;
+	h2 {
+		text-align: right;
+		display: none;
+	}
 }
 
-#mapkey h2 {
-        text-align: right;
-        display: none;
-}
+/* line 843, ../sass/freedomfone.scss */
+
+/* line 848, ../sass/freedomfone.scss */
 
 .view-Deployments {
-    float: left;
-    margin: 0 1em 1em 0;
-    width: 100%;
+	float: left;
+	margin: 0 1em 1em 0;
+	width: 100%;
+	/*Theming the users table*/
 	.views-exposed-widgets {
 		width: 100%;
+		overflow: hidden;
 	}
 	.views-exposed-form .views-exposed-widget {
-	    float: left;
-	    padding: 0.5em 5em 0 0;
+		float: left;
+		/*padding: 0.5em 4em 0 0;*/
+		width: 18%;
 		&.views-submit-button {
 			float: right;
-		    padding: 0.5em 0 0 0;
+			/*padding: 0.5em 0 0 0;*/
+			text-align: right;
 			/*Theming the actual button*/
+			bottom: -3px;
+			position: relative;
 			.form-submit {
-			    background-color: #F58431;
-			    border: medium none;
-			    color: #FFFFFF;
-			    cursor: pointer;
-			    font-weight: bold;
-			    margin-top: 1.1em;
-			    padding: 3px 11px 3px 13px;
+				background-color: #F58431;
+				border: medium none;
+				color: #FFFFFF;
+				cursor: pointer;
+				font-weight: bold;
+				margin-top: 1.1em;
+				padding: 0px 11px 0px 13px;
+				height: 22px;
 			}
 		}
 	}
-	
-	/*Theming the users table*/
 	.views-table {
 		width: 100%;
 	}
-	
 	.views-field-field-link {
 		text-align: center;
 	}
-	
 }
+
+/* line 852, ../sass/freedomfone.scss */
+
+/* line 855, ../sass/freedomfone.scss */
+
+/* line 858, ../sass/freedomfone.scss */
+
+/* line 862, ../sass/freedomfone.scss */
+
+/* line 875, ../sass/freedomfone.scss */
+
+/* line 879, ../sass/freedomfone.scss */
+
+/* line 885, ../sass/freedomfone.scss */
 
 #Running {
-        background: url("../../../modules/gmap/markers/small/green.png") no-repeat scroll center 0 transparent;
-        padding: 3px;
-        margin-left: 2px;
+	background: url("../../../modules/gmap/markers/small/green.png") no-repeat scroll center 0 transparent;
+	padding: 3px;
+	margin-left: 2px;
 }
+
+/* line 891, ../sass/freedomfone.scss */
 
 #Suspended {
-        background: url("../../../modules/gmap/markers/small/orange.png") no-repeat scroll center 0 transparent;
-        padding: 3px;
-        margin-left: 2px;
+	background: url("../../../modules/gmap/markers/small/orange.png") no-repeat scroll center 0 transparent;
+	padding: 3px;
+	margin-left: 2px;
 }
+
+/* line 897, ../sass/freedomfone.scss */
 
 #Completed {
-        background: url("../../../modules/gmap/markers/small/red.png") no-repeat scroll center 0 transparent;
-        padding: 3px;
-        margin-left: 2px;
+	background: url("../../../modules/gmap/markers/small/red.png") no-repeat scroll center 0 transparent;
+	padding: 3px;
+	margin-left: 2px;
 }
+
+/* line 903, ../sass/freedomfone.scss */
 
 th.views-field-name {
-        text-align: center;
+	text-align: center;
 }
+
+/* line 907, ../sass/freedomfone.scss */
 
 .view-Deployments .view-header {
-		margin-bottom: 15px;
+	margin-bottom: 15px;
+	margin-bottom: 15px;
+	a {
+		&:link, &:visited {
+			color: #42829E;
+		}
+		&:hover {
+			color: #F58431;
+		}
+	}
 }
 
-.view-Deployments .view-header {
-        margin-bottom: 15px;
-}
+/* line 911, ../sass/freedomfone.scss */
 
-.view-Deployments .view-header a:link, .view-Deployments .view-header a:visited {
-        color: #42829E;
-}
+/* line 915, ../sass/freedomfone.scss */
 
-.view-Deployments .view-header a:hover {
-        color: #F58431;
-}
-
+/* line 919, ../sass/freedomfone.scss */
 
 /*Individual User Pages*/
+/* line 926, ../sass/freedomfone.scss */
+
 .node-type-users {
 	p.submitted {
 		font-style: italic;
-	    margin: 1em 0;
+		margin: 1em 0;
 	}
-	
 	.field-name-field-video {
 		text-align: center;
 	}
 }
 
-//A user page, for an authenticated, registered user -- not anonymous
-.page-user {
-	#content-inner {
-		.profile {
-			//below we need the field labels and data look presentable that's all
-			.field-label {
-				font-weight: bold;
-			    margin: 0 0 0.2em;
-			}
-			.field-item {
-				margin: 0 0 1em;
-			}
-		}
+/* line 931, ../sass/freedomfone.scss */
+
+/* line 941, ../sass/freedomfone.scss */
+
+.page-user #content-inner .profile {
+	.field-label {
+		font-weight: bold;
+		margin: 0 0 0.2em;
+	}
+	.field-item {
+		margin: 0 0 1em;
 	}
 }
 
-//Page used when editing/adding users
+/* line 945, ../sass/freedomfone.scss */
+
+/* line 956, ../sass/freedomfone.scss */
+
 .page-node-add-users {
-	.form-field-name-field-video {
-		a {
-			&.button.launcher, &.button.remove {
-				font-size: 1.2em;
-				font-weight: bold;
-				padding: 5px;
-			}
+	.form-field-name-field-video a.button {
+		&.launcher, &.remove {
+			font-size: 1.2em;
+			font-weight: bold;
+			padding: 5px;
 		}
 	}
 	.form-item-field-sector-und select {
-		height: 11em;
+		height: 11.6em;
+	}
+	#field-link-add-more-wrapper .form-item {
+		margin-top: 0;
 	}
 }
+
+/* line 963, ../sass/freedomfone.scss */
+
+/* line 969, ../sass/freedomfone.scss */
 
 form#webform-client-form-164 {
 	p {
@@ -986,7 +1401,151 @@ form#webform-client-form-164 {
 	}
 }
 
-//touch ups
+/* line 976, ../sass/freedomfone.scss */
+
+/* line 983, ../sass/freedomfone.scss */
+
 .form-checkboxes .form-item, .form-radios .form-item {
 	margin: 0.4em 0;
+}
+
+/*Gmap Popup*/
+
+.gmap-popup a {
+	&:link, &:visited {
+		color: #42829E;
+	}
+	&:hover {
+		color: #F58431;
+	}
+}
+
+/*Late hacks*/
+
+.page-taxonomy-term #content-inner {
+	article p a {
+		&:link, &:visited {
+			font-weight: normal;
+		}
+	}
+	li a {
+		&:link, &:visited {
+			font-weight: normal;
+		}
+	}
+}
+
+.page-node-add-story select#edit-taxonomy-vocabulary-1-und, .page-node-edit select#edit-taxonomy-vocabulary-1-und {
+	height: 11.7em;
+}
+
+/*Edited, it puts all file attachment uplaod buttons on the right of the form */
+
+#edit-upload-und-0-upload-button {
+	float: right;
+}
+
+.loginlogout {
+	clear: both;
+	float: right;
+	margin: 0;
+	padding: 1.35em 10px;
+	text-transform: none;
+}
+
+/*Editor Styles -- Edited*/
+
+.cke_skin_kama {
+	* {
+		white-space: normal !important;
+	}
+	a {
+		&:hover, &:link, &:visited, &:active {
+			white-space: normal !important;
+		}
+	}
+}
+
+/*Author pages*/
+
+#content-inner {
+	.view-news-authors li a {
+		font-weight: normal;
+	}
+	article {
+		&.view-mode-full ul {
+			padding-left: 2em;
+		}
+		ul ul {
+			margin-top: 0;
+		}
+	}
+}
+
+.front #content-inner p a {
+	&:link, &:visited {
+		font-weight: normal;
+	}
+}
+
+.field-label-inline {
+	.field-label, .field-items {
+		float: none;
+		display: inline;
+	}
+}
+
+a#edit-cancel {
+	-webkit-align-items: flex-start;
+	text-align: center;
+	cursor: pointer;
+	color: buttontext;
+	padding: 1px 6px 2px;
+	border: 1px solid #999;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	background-color: rgb(240, 240, 240);
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 11px;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+/*This is on the page confirmation page after submission of support request.*/
+
+.page-node-165 .links a {
+	color: #F58431;
+}
+
+page-node-done .links a {
+	color: #42829E;
+}
+
+.page-node-done .links a {
+	&:hover, &:visited {
+		color: #42829E;
+	}
+}
+
+/*custom styles to fix map bubbles*/
+
+.gm-style-iw {
+	overflow: hidden !important;
+	> div {
+		overflow: hidden !important;
+	}
+}
+
+.page-node-109 #page-title {
+	margin-bottom: 1em;
+}
+
+//this is for feed-me input that bots love so much of...
+.form-item-feed-me {
+	display: none;
 }
